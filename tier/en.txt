@@ -1,0 +1,2019 @@
+Новое обучение|New run
+Запуски|Runs
+Разговор|Chat
+Проверка|Evaluation
+Настройки|Settings
+Обучение|Training
+Модель|Model
+Сегодня|Today
+Вчера|Yesterday
+КиБ|KiB
+МиБ|MiB
+ГиБ|GiB
+ГБ|GB
+Б|B
+вопрос|question
+вопроса|questions
+вопросов|questions
+Вопрос|Question
+Вопросы|Questions
+· По одному на строку|· One per line
+Один вопрос на строку. Ожидаемый ответ — после « || », по нему ищется совпадение|One question per line. The expected answer goes after « || » and is used for matching
+Вопрос || Ожидаемый ответ|Question || Expected answer
+Системная строка|System prompt
+Сообщение|Message
+Поиск|Search
+Сцена|System prompt
+Путь к .jsonl или .txt|Path to .jsonl or .txt
+/путь/к/папке|/path/to/folder
+Команда, раздел или запуск|Command, section or run
+Команды|Commands
+Команды (Ctrl+K)|Commands (Ctrl+K)
+Команды и поиск|Commands and search
+Предыдущий|Previous
+Следующий|Next
+Разделы|Sections
+Разделы настроек|Settings sections
+Разделы по порядку|Sections in order
+подробности, клавиша|details, key
+Клавиша|Key
+Клавиши|Keys
+Отправить · Enter|Send · Enter
+Новая строка · Shift+Enter|New line · Shift+Enter
+Отправить|Send
+Удалить|Delete
+Удалить набор|Delete preset
+Удалить запуски:|Delete runs:
+Удалено|Deleted
+Удалено не всё|Not everything was deleted
+Освобождено|Freed
+Освободится|Will free
+не удалось|failed
+Ниже|Down
+Выше|Up
+Выберите 2–6 запусков|Select 2–6 runs
+Сравнить|Compare
+Сравнение|Comparison
+Сравнение с исходной|Compare with base
+Сравнение с исходной: каждый вопрос — обученной и исходной модели, с чистого листа|Compare with base: each question goes to the trained and the base model, from a clean context
+Сравнить с исходной моделью|Compare with the base model
+Исходная модель|Base model
+Исходная|Base
+Обученная|Trained
+Обученная против исходной|Trained vs base
+У исходной|Base model
+Без обучения|Untrained
+Не загружена|Not loaded
+Загружена|Loaded
+Загружается|Loading
+Модель в видеопамяти|Model in VRAM
+Веса грузятся при первом вопросе|Weights load on the first question
+Новый разговор|New chat
+Параметры|Parameters
+Параметр|Parameter
+Модели|Models
+Длина ответа|Answer length
+Длина ответа, токенов|Answer length, tokens
+Температура|Temperature
+Сила обучения|Training strength
+1 — как обучено, 0 — исходная модель, 1.5 — резче|1 as trained, 0 base model, 1.5 sharper
+1 — как обучено, 0 — исходная|1 as trained, 0 base
+0 — всегда самый вероятный ответ|0 always picks the most likely answer
+Токенов|Tokens
+Разговор по умолчанию|Chat defaults
+Проверка вопросами|Question evaluation
+Запустить проверку|Run evaluation
+Из данных запуска|From the run data
+Из данных|From data of
+Из файла|From a file
+Свой список|Custom list
+Свой список пуст|Custom list is empty
+Нет результатов|No results
+Итог|Result
+Копировать|Copy
+Сохранить таблицу|Save table
+Таблица скопирована|Table copied
+Таблица сохранена|Table saved
+Не сохранилось|Not saved
+Совпало с ожидаемым|Matched expected
+Совпало|Matched
+Ожидается|Expected
+Ответ изменился|Answer changed
+✓ Совпало|✓ Matched
+✗ Не совпало|✗ No match
+= Как у исходной|= Same as base
+≠ Изменился|≠ Changed
+Щелчок — отметить вручную|Click to mark manually
+Идёт|Running
+Проверка завершена|Evaluation finished
+Проверка прервана|Evaluation interrupted
+Проверка не началась|Evaluation did not start
+Нет вопросов|No questions
+не выбран файл с вопросами|no question file selected
+у запуска нет записи о файле данных — выберите файл|the run has no record of its data file; choose a file
+файл не читается|file is unreadable
+Файл не читается|File is unreadable
+движок закрылся|engine closed
+отменено|cancelled
+нет связи с программой|no connection to the program
+нет связи|no connection
+Движок завершился при загрузке — подробно в|The engine exited while loading; details in
+Ошибка|Error
+Остановить|Stop
+Остановка…|Stopping
+Остановить «|Stop «
+Обучение остановлено|Training stopped
+Обучение продолжено|Training resumed
+Обучение запущено|Training started
+Обучение остановилось с ошибкой|Training stopped with an error
+Сохранений ещё нет: продолжение начнётся с шага 1.|No checkpoints yet: resuming starts from step 1.
+Сохранений нет|No checkpoints
+Продолжение с шага|Resume from step
+Продолжить с шага|Resume from step
+Начать заново|Start over
+Веса сохранены до шага|Weights saved up to step
+Лучшая|Best
+на шаге|at step
+Осталось|Left
+Прошло|Elapsed
+Завершается|Finishing
+Повтор: разметка ответов|Replay: labeling answers
+Подбор шага: загрузка весов|Learning-rate search: loading weights
+Загрузка весов в ОЗУ|Loading weights into RAM
+Точка|Point
+Упаковка|Packing
+По одному примеру|One example at a time
+Оценка каждые|Evaluate every
+Сброс каждые|Checkpoint every
+Выкл|Off
+оценок без улучшения|evaluations without improvement
+Всё, что задано|Everything set
+Что было задано|What was set
+Запуск|Run
+Режим|Mode
+Журнал|Log
+Журнал запуска|Run log
+Время|Time
+Событие|Event
+Что произошло|What happened
+Вывод программы|Program output
+Вывода пока нет|No output yet
+Событий пока нет|No events yet
+Числа появятся после первых шагов|Numbers appear after the first steps
+Запуск из терминала: записи о выборе нет|Started from the terminal: no record of the choices
+Без сглаживания: виден разброс между примерами.|Unsmoothed: shows the spread between examples.
+Доля угаданных токенов ответа.|Share of answer tokens guessed right.
+Пик за шаг; пунктир — потолок карты.|Peak per step; dashed line is the card memory limit.
+Самая горячая точка кристалла, память и край.|Hottest spot of the die, memory and edge.
+Обороты в минуту; ноль на холодной карте — норма.|RPM; zero on a cold card is normal.
+Насколько сильно веса просятся измениться.|How strongly the weights want to change.
+Разгон в начале, затем плавный спуск.|Warm-up first, then a smooth decay.
+не показаны|not shown
+Длина примеров|Example length
+Что внутри|Contents
+Вентилятор|Fan
+Шаг обучения|Training step
+Всего|Total
+Перплексия|Perplexity
+Падение за 50 шагов|Drop over 50 steps
+Разница средних|Difference of means
+Среднее за 50 шагов|Mean over 50 steps
+Среднее первых 10 шагов|Mean of the first 10 steps
+Последние 50 шагов|Last 50 steps
+За весь прогон|Whole run
+Втрое выше среднего за 50 шагов|Three times above the 50-step mean
+Упала в|Dropped by
+Предел кристалла ≈ 110°|Die limit ≈ 110°
+Меньше 200 — риск падения|Below 200 risks a crash
+Тензоров постоянно|Resident tensors
+Кэш в ОЗУ|Cache in RAM
+На диске|On disk
+Самый долгий|Slowest
+Пик|Peak
+Живых|Live
+Блоков|Blocks
+Область|Area
+Мимо|Outside
+Память|Memory
+Край|Edge
+Норма|Norm
+Максимум|Maximum
+На отложенных|Held-out
+На обучении|Training
+Замеров|Measurements
+Готово|Done
+Нужно действие|Action needed
+Нет данных|No data
+Разбор|Parsing
+Готова|Ready
+Нет весов|No weights
+Не поддерживается|Not supported
+Пока не поддерживается|Not supported yet
+Вид модели в файле|Model type in the file
+Только чтение|Read-only
+Программа только читает этот файл|The program only reads this file
+Изменить папку|Change folder
+Указать папку|Choose folder
+Другая папка|Another folder
+Скачать ≈ 22 ГБ|Download ≈ 22 GB
+Модель не найдена|Model not found
+нет model.safetensors|no model.safetensors
+В папке|The folder
+Появится, когда найдётся файл весов.|Appears once the weights file is found.
+параметров|parameters
+слоёв|layers
+Словарь|Vocabulary
+Вид обучения|Training type
+Учится|Trained
+С Adam в видеопамяти|With Adam in VRAM
+Вес и два момента|Weight and two moments
+Заморожено в ОЗУ|Frozen in RAM
+BF16, как в файле|BF16, as in the file
+По шине за шаг|Over the bus per step
+По шине|Over the bus
+Срез FP32|FP32 slice
+Смесь экспертов: учится срез каждого эксперта, по шине едут только выбранные маршрутизатором.|Mixture of experts: a slice of every expert is trained; only router-picked experts travel over the bus.
+Квантованная: замороженная часть хранится сжатой — меньше ОЗУ и шины; обучаемый срез остаётся FP32.|Quantized: the frozen part is stored compressed, less RAM and bus traffic; the trained slice stays FP32.
+Движок пока учит только плотные модели|The engine trains only dense models so far
+Движок пока учит только поверх BF16; таблица — что даст сжатие на этой машине|The engine trains only on top of BF16 so far; the table shows what compression would give on this machine
+Движок пока не умеет этот вид|The engine does not support this type yet
+Пока недоступно|Not available yet
+Учить как Dense|Train as Dense
+Что сжимать|What to compress
+Только MLP|MLP only
+Все слои|All layers
+Формат|Format
+Бит|Bits
+В ОЗУ|In RAM
+Шина ≥|Bus ≥
+Теоретический предел|Theoretical limit
+этой карте|this card
+Нативно|Native
+Распаковкой|Unpacked
+Влезет|Fits
+Мало|Too little
+сейчас|now
+Есть|Available
+Режим «Эксперт»: правка каждого числа|Expert mode: edit every number
+Вернуть числа автопилота|Restore the values selected by auto-tuning
+Все поля плана|All plan fields
+Ключи движка|Engine flags
+Оценок|Evaluations
+Эпох|Epochs
+Стоп|Stop
+Шагов|Steps
+Шага|Steps
+Шаг|Step
+Эпоха|Epoch
+Эпохи|Epochs
+Оценка|Evaluation
+Оценки|Evaluations
+Что обучаем|What to train
+Данные|Data
+Файл с примерами|Examples file
+Имя запуска|Run name
+Выбрать…|Choose
+Неверно|Invalid
+Примеров|Examples
+На обучение|For training
+Отложено|Held out
+Длина, медиана|Length, median
+Длина, p99|Length, p99
+Самый длинный|Longest
+Размер файла|File size
+ток.|tok.
+Примеры из файла|Examples from the file
+Пример|Example
+Инструкция|Instruction
+Ввод|Input
+Ответ|Answer
+Проверки|Checks
+План|Plan
+Начать обучение|Start training
+Не задано|Not set
+Не выбраны|Not selected
+Повторить|Retry
+Собран|Built
+Собран из прежней версии|Built from the previous version
+Не собран|Not built
+Нет набора разработки|No development kit
+Видеокарта не найдена|No GPU found
+Сборка под установленную карту, несколько минут|Build for the installed card, a few minutes
+Собрать|Build
+Установка пакетов|Installing packages
+Нет пакета tokenizers|No tokenizers package
+Поставить|Install
+Нет tokenizer.json|No tokenizer.json
+Скачать|Download
+Защита|Knowledge protection
+Нет пакета numpy|No numpy package
+Карта|Card
+Занята|Busy
+Перейти|Go
+ОЗУ|RAM
+нужных|needed
+Замороженное BF16|Frozen BF16
+эмбеддинги|embeddings
+система ≈ 6 ГиБ|system ≈ 6 GiB
+Видеопамять|VRAM
+Проверка при запуске|Checked at start
+Свободно|Free
+Диск|Disk
+ещё|more
+Сборка движка|Building the engine
+Не получилось|Failed
+Код|Code
+Ошибка (код|Error (code
+причина выше|reason above
+Запуск…|Starting
+Папка модели|Model folder
+Где лежит model.safetensors|Where model.safetensors is
+Где лежит model.safetensors. Программа только читает его|Where model.safetensors is. The program only reads it
+Рабочая папка|Work folder
+Журналы, токены, обученные веса|Logs, tokens, trained weights
+Откуда скачивать веса|Where to download weights from
+Программа|Program
+Сохранить|Save
+Сохранено|Saved
+Действует со следующего запуска движка|Applies from the next engine start
+Не записалось|Not written
+Загрузка…|Loading
+Машина|Machine
+Доступно|Available
+Шина|Bus
+Свободно из|Free of
+Запас видеопамяти, МиБ|VRAM reserve, MiB
+Видеопамять под промежуточные данные шага|VRAM for intermediate step data
+Бюджет среза|Slice budget
+Обучаемых чисел в видеопамяти: вес и два момента Adam — 12 байт на число|Trained numbers in VRAM: weight and two Adam moments, 12 bytes per number
+Три умножения BF16 вместо одного FP32: быстрее на картах без быстрого FP32|Three BF16 multiplies instead of one FP32: faster on cards without fast FP32
+Следующий слой едет по шине, пока считается текущий|The next layer travels over the bus while the current one computes
+Движок|Engine
+Состояние|State
+Пересобрать|Rebuild
+Нет компилятора|No compiler
+Несколько минут|A few minutes
+Браузер|Browser
+Связь с автором|Contact the author
+ВКонтакте|VK
+Шрифты|Fonts
+Оформление|Appearance
+Графики|Charts
+Поведение|Behavior
+Оборудование|Hardware
+Пути|Paths
+О программе|About
+Наборы|Presets
+Сохранить текущее|Save current
+Экспорт|Export
+Импорт|Import
+Цвет|Color
+Тема|Theme
+Тёмная|Dark
+Светлая|Light
+Акцент|Accent
+Свой цвет|Custom color
+Фон|Background
+Картинка|Image
+Другой файл|Another file
+Выбрать файл|Choose file
+Убрать|Remove
+Затемнение картинки|Image dimming
+Размытие картинки|Image blur
+Поверхности|Surfaces
+Непрозрачность|Opacity
+Карточки и панели|Cards and panels
+Размытие под стеклом|Glass blur
+Тени|Shadows
+Нет|None
+Мягкие|Soft
+Глубокие|Deep
+Линии|Lines
+Тонкие|Thin
+Обычные|Regular
+Чёткие|Crisp
+Скругление|Corner radius
+Текст|Text
+Шрифт|Font
+Размер|Size
+Начертание|Weight
+Лёгкое|Light
+Обычное|Regular
+Плотное|Medium
+Раскладка|Layout
+Плотность|Density
+Плотно|Compact
+Просторно|Spacious
+Панель|Sidebar
+Слева|Left
+Справа|Right
+Ширина панели|Sidebar width
+Ширина содержимого|Content width
+Ограничена|Limited
+Во всю ширину|Full width
+С зазором|With a gap
+Вплотную|Edge to edge
+Окно, развёрнутое на весь экран|A window maximized to the full screen
+Анимации|Animations
+Свой CSS|Custom CSS
+Очистить|Clear
+Переменные:|Variables:
+Вернуть оформление по умолчанию|Restore default appearance
+Сбросить|Reset
+Сбросить оформление?|Reset appearance?
+Свои наборы останутся.|Custom presets are kept.
+Сохранить набор|Save preset
+Название|Name
+Набор сохранён|Preset saved
+Оформление скопировано|Appearance copied
+Импорт оформления|Import appearance
+Вставьте JSON, скопированный кнопкой «Экспорт»|Paste the JSON copied with “Export”
+Применить|Apply
+Оформление применено|Appearance applied
+Не JSON|Not JSON
+Нужна картинка|An image is needed
+PNG, JPG, WebP, AVIF или GIF|PNG, JPG, WebP, AVIF or GIF
+свой|custom
+Свой набор|Custom preset
+Набор|Preset
+Ночь|Night
+Океан|Ocean
+Графит|Graphite
+Угли|Embers
+Терминал|Terminal
+Контраст|Contrast
+Пудра|Powder
+Бумага|Paper
+Туман|Mist
+Лаванда|Lavender
+Сияние|Aurora
+Рассвет|Dawn
+Тушь|Ink
+Ровный|Plain
+Системный|System
+Моноширинный|Monospace
+Плитки на «Ходе обучения»|Tiles on “Training progress”
+Плитки графиков на «Ходе обучения»|Chart tiles on “Training progress”
+Колонок|Columns
+Сами|Auto
+Высота графика|Chart height
+Толщина линии|Line width
+Заливка под кривой|Fill under the curve
+Сетка|Grid
+Стартовый экран|Start screen
+Сам|Auto
+«Сам» — обучение, если идёт|“Auto”: training if a run is going
+Уведомление по окончании|Notify when finished
+На рабочий стол — и когда окно закрыто|To the desktop, also when the window is closed
+В трей при закрытии|Close to tray
+Пока идёт обучение|While training runs
+Подтверждать остановку|Confirm stop
+Десятичный знак|Decimal separator
+Сменить тему|Toggle theme
+Поиск по запускам|Search runs
+Закрыть окно или диалог|Close a window or dialog
+Завершить всё|Quit everything
+Завершить|Quit
+Завершить всё?|Quit everything?
+Программа закроется полностью.|The program will close completely.
+будет остановлено, программа закроется полностью.|will be stopped and the program will close completely.
+TierLM завершён|TierLM has quit
+Действия|Actions
+Светлая тема|Light theme
+Тёмная тема|Dark theme
+Русский язык|Russian
+Ничего не найдено|Nothing found
+Запусков пока нет|No runs yet
+Все|All
+Идут|Running
+Завершены|Finished
+Остановлены|Stopped
+Ошибки|Errors
+Запусков|Runs
+Занимают|Take up
+Имя|Name
+Способ|Method
+Когда|When
+Открыть|Open
+Выбрать все|Select all
+Удалить «|Delete «
+Журнал, токены и обученные веса|Log, tokens and trained weights
+Без возврата.|Cannot be undone.
+Исходная модель не затрагивается.|The base model is not touched.
+Остальное — вопрос|The rest is the question
+Потеря на отложенных|Held-out loss
+Секунд на шаг|Seconds per step
+Потеря|Loss
+Точность на ответе|Answer accuracy
+Длительность шага|Step duration
+Норма градиента|Gradient norm
+Потолок|Ceiling
+Из|Of
+Не начинался|Not started
+Завершено|Finished
+Остановлено|Stopped
+Ошибка запуска|Start error
+Ошибка на шаге|Error at step
+Остановлено на шаге|Stopped at step
+Параметры запуска|Run parameters
+Срез по всей сети|Slice across the network
+Точно: факты|Precise: facts
+Характер: голос и манера|Character: voice and manner
+Срез|Slice
+Точно|Precise
+Характер|Character
+Токены|Tokens
+Повтор|Replay
+Не было|Skipped
+Задан|Set
+Выключен|Off
+Не нужно|Not needed
+Срез по видеопамяти|Slice by VRAM
+к данным|to data
+Целиком|Whole
+Целиком:|Whole:
+40 шагов|40 steps
+Что учится|What is trained
+Строю раскладку среза|Building the slice layout
+раскладка записана|layout written
+строк каждой матрицы|rows of every matrix
+матриц|matrices
+Разговор с|Chat with
+Нужно|Needed
+Кривая|Curve
+Свободно 18.2 ГиБ из 252 ГиБ|Free 18.2 GiB of 252 GiB
+Сброс оформления|Reset appearance
+Вид графиков|Chart style
+Скачивание весов|Downloading weights
+Имя занято|Name taken
+на стенде (30 правок) перенос на другие формулировки 96–99 %, порча чужих фактов −0,1…−0,2 %, у среза — −3 %; на 100 правках −1…−2 % против −7 %|in the test (30 edits): transfer to other phrasings 96–99 %, damage to unrelated facts −0.1…−0.2 %, slice −3 %; at 100 edits −1…−2 % vs −7 %
+манера у новых людей 96 %, вместе с верным фактом 87 %, без метки не просачивается (0,0 %), чужое −0,3 %; у среза — 87 %, 72 %, 4,8 % и −6,4 %|manner on new people 96 %, with the correct fact 87 %, no leakage without the tag (0.0 %), unrelated −0.3 %; slice: 87 %, 72 %, 4.8 % and −6.4 %
+к каждому примеру добавляются обычные ответы исходной модели: она сохраняет их при обучении и меньше искажает то|ordinary answers of the original model are mixed into the examples: it keeps them while training and distorts less of what
+память под главные направления защиты общих знаний (FP32): на down_proj вход 15360, на внимание — 3840 (q/k/v) и 4096 (o|memory for the principal directions for knowledge protection (FP32): down_proj input 15360, attention 3840 (q/k/v) and 4096 (o
+маршрутизатор отправляет каждый токен к немногим экспертам из многих. TierLM учил бы срез каждого эксперта|the router sends each token to a few experts out of many. TierLM would train a slice of every expert
+Веса и обученное могут жить где угодно — например на отдельном диске. Веса открываются только на чтение|Weights and results can live anywhere, e.g. on a separate disk. Weights are opened read-only
+часть строк каждой матрицы и все нормировки, Adam: подходит для тона и знаний, но затрагивает остальное|some rows of every matrix and all norms, Adam: suits tone and knowledge, but affects everything else
+замороженная часть хранится сжатой — меньше ОЗУ и меньше везти по шине. Обучаемый срез остаётся в FP32|the frozen part is stored compressed: less RAM and less bus traffic. The trained slice stays in FP32
+приближёнными становятся только замороженные веса, через которые идут прямой и обратный проход|only the frozen weights become approximate; forward and backward passes go through them
+Факты и правила. Правка переносится на другие формулировки и почти не затрагивает остальное|Facts and rules. The edit transfers to other phrasings and barely affects the rest
+целые down_proj трёх слоёв средней трети, nsgd, защита общих знаний, градиент только с ответа|whole down_proj of three middle-third layers, nsgd, knowledge protection, gradient from the answer only
+быстрый|fast
+баланс|balanced
+качество|quality
+а по шине возил бы только тех, кого маршрутизатор выбрал хотя бы для одного токена шага|and carry over the bus only those the router picked for at least one token of the step
+внимание ранней половины сети, nsgd, защита общих знаний, повтор: на стенде (150 людей в данных|attention of the early half, nsgd, knowledge protection, replay: on the bench (150 people in data
+Из осмотра машины. Запас — сколько видеопамяти оставить под промежуточные данные|From the machine survey. Reserve is how much VRAM to keep for intermediate data
+Часть строк каждой матрицы. Подходит для тона и знаний, но затрагивает остальное|Some rows of every matrix. Suits tone and knowledge, but affects everything else
+уже есть: продолжить его можно на экране обучения, для нового нужно другое имя|already exists: continue it on the training screen; a new run needs another name
+три умножения BF16 вместо одного FP32: быстрее при погрешности на уровне FP32|three BF16 multiplies instead of one FP32: faster, with FP32-level error
+Сколько займёт, станет видно по первым шагам: на этой машине ещё не учились|Duration will show after the first steps: nothing has been trained on this machine yet
+числа появятся, когда будут выбраны данные: шаги считаются по самим токенам|numbers appear once data is selected: steps are counted from the tokens
+уже есть: без файла — продолжить его, для новых данных — другое имя (NAME|already exists: without a file, continue it; for new data, another name (NAME
+обороты в минуту; ноль — остановлен, это нормально на холодной карте|revolutions per minute; zero means stopped, normal for a normally cooled card
+уже есть — его можно продолжить, а для новых данных нужно другое имя|already exists: it can be continued; new data needs another name
+Голос и манера персонажа. Не проявляется там, где персонаж не задан|A character's voice and manner. Absent where the character is not set
+в модели смесь экспертов, а движок пока умеет только плотные модели|the model is a mixture of experts; the engine handles only dense models so far
+бюджет обучаемого среза пересчитается при следующем запуске движка|the trained-slice budget is recalculated at the next engine start
+веса в файле уже квантованы, а движок пока учит только поверх BF16|the weights are already quantized; the engine trains only on top of BF16 so far
+до первого сброса на диск не дошло — продолжение начнётся с шага 1|no checkpoint was reached; continuing starts from step 1
+процессор считает часть замороженных строк непосредственно из ОЗУ|the CPU computes part of the frozen rows directly from RAM
+чего нет в данных. Для персонажа, который проявляется всегда, — 0|what is not in the data. For a character that is always present: 0
+События запуска, свежие сверху; ниже — вывод программы как есть|Run events, newest first; below is the raw program output
+выбран для просмотра; обучение пока доступно только как Dense|selected for viewing; training is available only as Dense so far
+имя: буквы, цифры, точка, дефис и подчёркивание, до 40 знаков|name: letters, digits, dot, hyphen and underscore, up to 40 characters
+в этом режиме обучаются только целые матрицы выбранных слоёв|in this mode only whole matrices of the chosen layers are trained
+сколько токенов приходит на шаг и сколько из них под loss|tokens per step and how many of them are in the loss
+следующий слой передаётся по шине, пока считается текущий|the next layer is transferred while the current one computes
+Защита общих знаний: поиск главных направлений обычного текста|Knowledge protection: finding principal directions of ordinary text
+недоступна для проверки — движок проверит при запуске|cannot be checked: the engine will check at start
+ГиБ видеопамяти на вес и Adam — из настройки оборудования|GiB of VRAM for weights and Adam, from hardware settings
+веса грузятся один раз — первый ответ ждать дольше|weights load once: the first answer takes longer
+каждый токен проходит через все веса. Учится срез|every token goes through all weights. A slice is trained
+нет пакета numpy: без него защита общих знаний недоступна|numpy is missing: knowledge protection is unavailable without it
+Повтор: исходная модель размечает обычные ответы|Replay: the original model labels ordinary answers
+перейти в режим «Эксперт»: каждое число правится|switch to Expert mode: every number is editable
+уровни под нормальное распределение, как в QLoRA|levels fitted to a normal distribution, as in QLoRA
+числа обучения — в плане запуска, режим «Эксперт|training numbers are in the run plan, mode “Expert
+шаг уменьшается, когда норма градиента выскочила|the step shrinks when the gradient norm spikes
+эталонная точность; шаг дольше примерно на треть|reference precision; steps about a third longer
+tokenizers есть, словарь придёт вместе с весами|tokenizers present; the vocabulary comes with the weights
+Модель, режим и данные — затем «Начать обучение|Model, mode and data, then “Start training
+без сглаживания — видно разброс между примерами|unsmoothed: spread between examples is visible
+сборка под установленную карту, несколько минут|build for the installed card, a few minutes
+этот запуск из терминала — записи о выборе нет|this run was started from a terminal; no record of the choice
+GTK с WebKit не найдены — открываю в браузере|GTK with WebKit not found, opening in the browser
+продолжение доступно после устранения причины|continuing is possible after fixing the cause
+срезу может не хватить места: закройте лишнее|the slice may not fit: close other programs
+Самая горячая точка кристалла, память и край|Hottest die point, memory and edge
+втрое выше среднего за полсотни шагов до них|three times the average of the 50 steps before
+нужна картинка: png, jpg, webp, avif или gif|an image is required: png, jpg, webp, avif or gif
+числа появятся, как только данные разберутся|numbers appear once data is parsed
+Вид станет виден, когда найдётся файл весов|Type is shown once the weights file is found
+Все параметры плана доступны для изменения|All plan parameters are editable
+Окно можно закрыть: обучение идёт отдельно|The window can be closed: training runs separately
+ROCm для AMD либо CUDA Toolkit для nvidia|ROCm for AMD or CUDA Toolkit for nvidia
+Насколько сильно веса просятся измениться|How strongly the weights want to change
+Раскладка обучаемого среза по видеопамяти|Trained slice layout in VRAM
+вернуть числа, которые подобрал автопилот|restore the numbers picked by autopilot
+сборка под установленную карту — ход ниже|build for the installed card; progress below
+нет записи о старте — продолжать нечего|no start record: nothing to continue
+FP32, простая библиотека производителя|FP32, basic vendor library
+без подбора: обучение начинается сразу|no search: training starts right away
+поговорить с обученной моделью, или «р|talk to the trained model, or “р
+Отправная точка для большинства задач|A starting point for most tasks
+разгон в начале, дальше плавный спуск|warmup first, then a smooth decay
+не удалось записать настройку оборудования|failed to write hardware settings
+Пик за шаг; пунктир — потолок карты|Peak per step; dashed line is the card limit
+замороженные веса, BF16 как в файле|frozen weights, BF16 as in the file
+определяет, какие матрицы обучаются|decides which matrices are trained
+остальное — вопрос, по нему не учим|the rest is the question, not trained on
+FP32, библиотека производителя (Lt|FP32, vendor library (Lt
+Папка, где лежит model.safetensors|Folder containing model.safetensors
+по одному примеру: набор небольшой|one example at a time: the set is small
+пустое поле — подбор автоматически|empty field: automatic search
+во столько раз модель «колеблется|how many times the model “hesitates
+не найдена: нет model.safetensors|not found: no model.safetensors
+нет tokenizer.json рядом с весами|no tokenizer.json next to the weights
+числа появятся после первых шагов|numbers appear after the first steps
+он определяет, каким будет ответ|it decides what the answer will be
+разговор закрылся — движок вышел|chat closed: the engine exited
+ГиБ видеопамяти: вес и инерция|GiB of VRAM: weights and momentum
+Остановилось с ошибкой на шаге|Stopped with an error at step
+не установлен пакет tokenizers|tokenizers package not installed
+отсутствует набор replay.jsonl|replay.jsonl set is missing
+числа режима — в плане запуска|mode numbers are in the run plan
+Доля угаданных токенов ответа|Share of correctly predicted answer tokens
+длина заголовка вне разумного|header length out of range
+по последним пятидесяти шагам|over the last fifty steps
+потоков процессора на матрицы|CPU threads for matrices
+установка пакетным менеджером|install via package manager
+tokenizers и словарь найдены|tokenizers and vocabulary found
+каждое число плана — вручную|every plan number by hand
+открыть подробности, клавиша|open details, key
+тензоров живёт там постоянно|tensors stay there permanently
+установка пакетов — ход ниже|installing packages; progress below
+Остановлено до первых шагов|Stopped before the first steps
+до завершения или остановки|until finished or stopped
+заголовок файла не читается|file header unreadable
+медиана: всплески не в счёт|median: spikes excluded
+не удалось открыть разговор|failed to open chat
+нет файла model.safetensors|no model.safetensors file
+общая степень на блок из 32|shared exponent per 32-block
+оно общее для всех запусков|shared by all runs
+остальное заморожено в BF16|the rest is frozen in BF16
+предел кристалла около 110°|die limit about 110°
+среднее первых десяти шагов|average of the first ten steps
+Обучение ещё не начиналось|Training has not started yet
+максимум за прогон, об/мин|maximum per run, rpm
+не выбран файл с примерами|no examples file selected
+полная точность, срез FP32|full precision, FP32 slice
+ровно это уйдёт автопилоту|exactly this goes to autopilot
+вес первого токена ответа|weight of the first answer token
+загрузка весов — ход ниже|loading weights; progress below
+поиск главных направлений|finding principal directions
+продолжение пойдёт с шага|continuing from step
+шагов длиннее двух медиан|steps longer than two medians
+ГиБ: слоёв слишком много|GiB: too many layers
+карта сбрасывает частоты|the card is throttling
+меньше 200 — жди падения|below 200: expect a crash
+по одному примеру в шаге|one example per step
+повтор: беречь остальное|replay: protect the rest
+характер: голос и манера|character: voice and manner
+4,4 % строк всех матриц|4.4 % of rows of all matrices
+бюджет обучаемого среза|trained slice budget
+журнал, открыть целиком|log, open in full
+какой запуск показывать|which run to show
+масштаб на группу из 64|scale per group of 64
+передайте файл датасета|pass the dataset file
+Минимальное время шага|Minimal step time
+Не запустилось: ошибка|Failed to start: error
+веса сохранены до шага|weights saved up to step
+как в настройке оборудования|as in hardware settings
+не удалось скопировать|copy failed
+открыть или продолжить|open or continue
+причина в строках выше|the reason is in the lines above
+уже идёт другой запуск|another run is in progress
+видеокарта не найдена|no GPU found
+внимание ранних слоёв|attention of early layers
+за последние 50 шагов|over the last 50 steps
+модель, режим, данные|model, mode, data
+не задано имя запуска|no run name set
+нет набора разработки|no development kit
+сохранённых весов нет|no saved weights
+что сейчас происходит|what is happening now
+Обучения ещё не было|No training yet
+Поговорить с моделью|Talk to the model
+Строка — один пример|One line is one example
+Файл только читается|The file is read-only
+а движок читает BF16|but the engine reads BF16
+выбрать другую папку|choose another folder
+выполняется один раз|runs once
+движок ещё не собран|engine not built yet
+движок пока не умеет|the engine cannot do this yet
+остальное заморожено|the rest is frozen
+остальные заморожены|the others are frozen
+оценка на отложенных|held-out evaluation
+повтор держит знания|replay keeps knowledge
+примеры для обучения|training examples
+среднее по полусотне|average over fifty
+упала во столько раз|dropped by this factor
+Tier1 в видеопамяти|Tier1 in VRAM
+вернуть подобранное|restore picked values
+выбрать другой файл|choose another file
+запуск из терминала|started from terminal
+остановлено вручную|stopped manually
+от начала до сейчас|from start until now
+по скорости запуска|by the speed of run
+путь к файлу .jsonl|path to the .jsonl file
+самая горячая точка|hottest point
+сброс на диск — шаг|checkpoint: step
+среднее на обучении|training average
+срез по видеопамяти|slice by VRAM
+умножение по оборудованию|multiply by hardware
+что учится: целиком|trained: whole
+nsgd + защита общих знаний|nsgd + knowledge protection
+Подготовка токенов|Preparing tokens
+вернуться к выбору|back to selection
+максимум за прогон|maximum per run
+перейти к обучению|go to training
+подготовка токенов|preparing tokens
+разговор с моделью|chat with the model
+точность на ответе|answer accuracy
+3 целые down_proj|3 whole down_proj
+Запуск автопилота|Starting autopilot
+Максимум качества|Maximum quality
+градиент с ответа|gradient from the answer
+длительность шага|step duration
+замороженное BF16|frozen BF16
+кэш в оперативной|cache in RAM
+масштаб на строку|scale per row
+на что уходит шаг|where the step goes
+обучать как Dense|train as Dense
+по одному примеру|one example at a time
+подбор развёрткой|sweep search
+разговор закрылся|chat closed
+срез по всей сети|slice across the network
+токенов в секунду|tokens per second
+numpy установлен|numpy installed
+Сбалансированный|Balanced
+Что будет задано|What will be set
+готово к запуску|ready to start
+закрыть, или Esc|close, or Esc
+запас до потолка|headroom to the limit
+и примерно раз в|and roughly once per
+к токенам данных|to data tokens
+настройка оборудования|hardware settings
+нет такого файла|no such file
+падение среднего|average drop
+разметка повтора|replay labelling
+ранняя остановка|early stopping
+скачать (≈ 22 ГБ|download (≈ 22 GB
+слои правки выше|edit layers above
+событий пока нет|no events yet
+токенов под loss|tokens in loss
+умножение FP16×3|FP16×3 multiply
+умножение BF16×3|BF16×3 multiply
+умножение матриц|matrix multiply
+файл с примерами|examples file
+FP32, свои ядра|FP32, own kernels
+down_proj слоёв|down_proj of layers
+Проверки и план|Checks and plan
+Прошлые запуски|Previous runs
+Смесь экспертов|Mixture of experts
+всего за прогон|total per run
+всё, что задано|everything set
+вывод программы|program output
+вывода пока нет|no output yet
+норма градиента|gradient norm
+обучаемых чисел|trained numbers
+примеров в шаге|examples per step
+проверки и план|checks and plan
+раз за обучение|times per training
+раскладка среза|slice layout
+связь с автором|contact the author
+спросить модель|ask the model
+ушло автопилоту|sent to autopilot
+что было задано|what was set
+экспертов и нет|no experts
+Не запустилось|Failed to start
+больше бюджета|over budget
+внимание слоёв|attention of layers
+выбор и запуск|selection and start
+длина примеров|example length
+длина, медиана|length, median
+доля всплесков|share of spikes
+загрузка весов|loading weights
+изменить папку|change folder
+медиана на шаг|median per step
+начало к концу|start to end
+не запустилось|failed to start
+не знаю такого|unknown
+норма по шагам|norm per step
+обучаемые слои|trained layers
+защита общих знаний по|knowledge protection over
+по имени файла|by file name
+по шине за шаг|over the bus per step
+порядок работы|workflow
+рост за прогон|growth per run
+связь потеряна|connection lost
+система ~6 ГиБ|system ~6 GiB
+сумма по шагам|sum over steps
+токенов в loss|tokens in loss
+токенов в шаге|tokens per step
+умножение FP32|FP32 multiply
+шагов выше 95°|steps above 95°
+шагов на эпоху|steps per epoch
+Быстрый старт|Quick start
+Выбрать папку|Choose folder
+Обучение: шаг|Training: step
+без улучшения|no improvement
+во весь экран|full screen
+всего времени|total time
+где что лежит|where things are
+доля под loss|share in loss
+ещё не собран|not built yet
+забыть беседу|forget the chat
+задан заранее|set in advance
+исходные веса|original weights
+на отложенных|held-out
+начать заново|start over
+пик за прогон|peak per run
+почти потолок|near the limit
+рабочая папка|work folder
+размер текста|text size
+самый длинный|longest
+сброс на диск|checkpoint
+сбросить свои|reset custom
+сделано шагов|steps done
+секунд на шаг|seconds per step
+со всплесками|with spikes
+токенов всего|tokens total
+только чтение|read-only
+указать папку|set folder
+что произошло|what happened
+Квантованная|Quantized
+длительность|duration
+занята: идёт|busy: running
+занято: идёт|busy: running
+ключи движка|engine flags
+не начинался|not started
+не требуется|not required
+папка модели|model folder
+после выбора|after selection
+прозрачность|transparency
+размер файла|file size
+самый долгий|slowest
+сменить тему|toggle theme
+точно: факты|precise: facts
+уже разбираю|already parsing
+ход обучения|training progress
+шаг обучения|learning rate
+Подбор шага|Rate search
+видеопамять|VRAM
+выполняется|running
+ещё не было|none yet
+завершается|finishing
+имя запуска|run name
+на обучение|for training
+на обучении|on training
+направлений|directions
+обычный шаг|regular step
+остановлено|stopped
+защита общих знаний|knowledge protection
+откуда веса|where weights come from
+ошибка (код|error (code
+пересобрать|rebuild
+подбор шага|rate search
+продолжение|continuation
+скопировано|copied
+скопировать|copy
+слои правки|edit layers
+температура|temperature
+температуры|temperatures
+что сжимать|what to compress
+шагов всего|steps total
+автопилоту|to autopilot
+вентилятор|fan
+вид модели|model type
+готовность|readiness
+длина, p99|length, p99
+запас, МиБ|reserve, MiB
+затемнение|dimming
+компилятор|compiler
+на эпоху ×|per epoch ×
+настройках|settings
+начертание|weight
+нормировки|norms
+осталось ≈|left ≈
+отложенные|held-out
+оформление|appearance
+пик за шаг|peak per step
+подготовка|preparation
+продолжить|continue
+с повтором|with replay
+скругление|corner radius
+только MLP|MLP only
+что внутри|contents
+что учится|what is trained
+p99 длины|length p99
+Подробнее|Details
+влезет ли|will it fit
+выключена|off
+готовится|preparing
+завершено|finished
+настройка|setting
+настройки|settings
+не собран|not built
+ни одного|none
+остановка|stop
+отправить|send
+плотность|density
+повторить|retry
+поколение|generation
+последний|last
+поставить|install
+придержка|clipping
+программа|program
+просторно|spacious
+процессор|CPU
+развёртка|sweep
+раскладка|layout
+свой цвет|custom color
+сложность|difficulty
+сообщение|message
+сообщения|messages
+состояние|state
+сохранить|save
+умножение|multiply
+что учить|what to train
+в начале|at start
+внимание|attention
+все слои|all layers
+выбросов|outliers
+выключен|off
+говорить|talk
+доступно|available
+загрузка|loading
+запущено|started
+значение|value
+изменить|change
+источник|source
+картинка|image
+максимум|maximum
+мимо неё|outside it
+нужно от|needs from
+обратный|backward
+обучение|training
+обучения|training
+основной|main
+осталось|left
+отложено|held out
+под loss|in loss
+подкачка|prefetch
+примеров|examples
+проверки|checks
+разговор|chat
+свернуть|minimize
+свободно|free
+терпение|patience
+точность|accuracy
+уже идёт|already running
+упаковка|packing
+характер|character
+Выбрать|Choose
+Плотная|Dense
+Причина|Reason
+Сначала|First
+Эксперт|Expert
+в ОЗУ и|in RAM and
+в папке|in folder
+выбрать|choose
+головка|head
+горячая|hot
+датасет|dataset
+закрыть|close
+замеров|measurements
+запуски|runs
+медиана|median
+нативно|native
+не было|none
+не реже|at least every
+неверно|invalid
+область|area
+обычное|regular
+обычные|regular
+открыть|open
+плотное|bold
+потолок|limit
+ресурсы|resources
+светлая|light
+скачать|download
+словарь|vocabulary
+сначала|first
+собрать|build
+событие|event
+средний|average
+средних|average
+токенов|tokens
+форматы|formats
+целиком|whole
+эксперт|expert
+Отмена|Cancel
+акцент|accent
+блоков|blocks
+в шаге|per step
+версия|version
+веса в|weights in
+выбран|selected
+готово|ready
+данные|data
+движок|engine
+оборудование|hardware
+журнал|log
+задано|set
+закрыт|closed
+заняло|took
+занято|used
+запуск|run
+каждые|every
+лучшая|best
+лучший|best
+лёгкое|light
+модель|model
+начало|start
+об/мин|rpm
+обычно|regular
+откуда|source
+оценка|evaluation
+оценки|evaluations
+оценок|evaluations
+ошибка|error
+пакеты|packages
+память|memory
+панель|panel
+первый|first
+плотно|compact
+повтор|replay
+потеря|loss
+почему|why
+прочее|other
+прошло|elapsed
+прямой|forward
+разбор|parsing
+размер|size
+режимы|modes
+свежий|latest
+сводка|summary
+секунд|seconds
+сервер|server
+собран|built
+способ|method
+строки|rows
+токены|tokens
+тонкие|thin
+тёмная|dark
+формат|format
+чёткие|crisp
+шина ≥|bus ≥
+эпох ×|epochs ×
+Выбор|Select
+Сразу|At once
+Форма|Shape
+в ОЗУ|in RAM
+время|time
+всего|total
+выбор|selection
+вывод|output
+живых|live
+задан|set
+из 40|of 40
+карта|card
+ключи|flags
+когда|when
+конец|end
+линии|lines
+линий|lines
+норма|norm
+нужно|needed
+около|about
+папка|folder
+после|after
+пущен|started
+режим|mode
+сброс|checkpoint
+старт|start
+текст|text
+ток/с|tok/s
+точка|point
+точно|precise
+учить|train
+через|in
+чисел|numbers
+шагов|steps
+шага|steps
+эпоха|epoch
+эпохи|epochs
+этапы|stages
+МБ/с|MB/s
+байт|bytes
+вент|fan
+веса|weights
+выкл|off
+выше|above
+есть|present
+ждём|waiting
+знач|value
+идёт|running
+край|edge
+мимо|outside
+окно|window
+план|plan
+пути|paths
+путь|path
+свои|custom
+своё|custom
+слои|layers
+срез|slice
+стоп|stop
+суть|essence
+тема|theme
+файл|file
+цели|goals
+шаги|steps
+шина|bus
+эпох|epochs
+этап|stage
+язык|language
+бит|bits
+вид|type
+вкл|on
+всё|all
+гпу|GPU
+имя|name
+код|code
+мин|min
+нет|no
+озу|RAM
+пик|peak
+под|under
+раз|times
+сек|s
+сис|sys
+ток|tok
+что|what
+шаг|step
+ч|h
+из|of
+на|on
+ок|ok
+ср|avg
+и|and
+в|in
+по|by
+с|s
+у|at
+за|per
+для|for
+без|without
+до|to
+от|from
+или|or
+не|not
+это|this
+при|at
+только|only
+готово:|ready:
+эпоху|epoch
+в файле|in the file
+пока нет|none yet
+вместе с Adam|together with Adam
+видеопамяти|VRAM
+не меньше|at least
+мало|too little
+все|all
+запас видеопамяти|VRAM reserve
+живёт в|lives in
+потеря на отложенных не улучшилась|held-out loss has not improved for
+не улучшилась|has not improved for
+оценок подряд|evaluations in a row
+подряд|in a row
+дальше учить было незачем|no point training further
+лучший снимок|best snapshot
+снимок|snapshot
+тг|tg
+вк|vk
+дс|ds
+развернуть|maximize
+с зазором|with a gap
+вплотную|edge to edge
+завершить всё|quit everything
+Обучение будет остановлено, программа закроется полностью. Завершить|Training will be stopped and the program will close completely. Quit
+Закрыть программу полностью|Close the program completely
+программа завершена|program closed
+собран из прежней версии|built from the previous version
+движок собран из прежней версии — пересобрать|the engine was built from the previous version: rebuild
+нет сохранённых весов: обучение не дошло до первого сброса на диск|has no saved weights: training never reached the first checkpoint
+не поддерживается|not supported
+не выбраны|not selected
+не задано|not set
+сборка|building
+готов|ready
+уже есть|already exists
+занята|busy
+проверка при запуске|checked at start
+нет данных|no data
+пусто — автоматически|empty: automatic
+время: после первых шагов|time: after the first steps
+словарь — вместе с весами|vocabulary comes with the weights
+нет пакета|missing package
+Остановлено · шаг|Stopped · step
+оценка каждые|evaluate every
+сброс каждые|checkpoint every
+вес первого токена|first token weight
+придержка градиента|gradient clipping
+потоков процессора|CPU threads
+бюджет среза|slice budget
+по оборудованию|by hardware
+Замороженные веса, BF16|Frozen weights, BF16
+Как в «Слои правки»|Same as “Edit layers”
+Одна строка — один пример|One line, one example
+обучается|trains
+Ещё|More
+Не удалось|Failed
+Свой|Custom
+Сцена:|System prompt:
+Выйти|Quit
+Показать окно|Show window
+Данные программы|Program data
+Каждый вопрос — обученной и исходной модели, с чистого листа|Each question goes to the trained and the base model, from a clean slate
+Обучение продолжается. Окно — в трее.|Training continues. The window is in the tray.
+Обычный размер|Restore
+Память при обучении|Memory during training
+По одному на строку|One per line
+Появится с первыми шагами|Appears with the first steps
+не выбрана модель|no model selected
+нет движка или весов модели|no engine or model weights
+шине|the bus
+у «|«
+Загрузка весов|Loading weights
+Сохранений ещё нет: продолжать будет не с чего|No checkpoints yet: there will be nothing to resume from
+lossа|loss
+lossе|loss
+lossу|loss
+Loss на валидации|Validation loss
+loss на валидации|validation loss
+Loss на обучении|Training loss
+Сырой loss по шагам|Raw loss per step
+Лучший loss|Best loss
+лучший loss|best loss
+Лучший|Best
+Последний|Last
+Лучший на валидации|Best on validation
+Последний на валидации|Last on validation
+На валидации|Validation
+на валидации|on validation
+На валидацию|For validation
+на валидацию|for validation
+Валидация|Validation
+валидация|validation
+Валидации|Validation
+валидации|validation
+Валидаций|Validations
+валидаций|validations
+Валидация каждые|Validate every
+валидация каждые|validate every
+Точность на валидации|Validation accuracy
+Точки валидации|Validation dots
+Токенов в loss|Tokens in loss
+В loss|In loss
+Доля в loss|Share in loss
+Токенов на шаг и сколько из них в loss.|Tokens per step and how many of them count toward the loss.
+Ниже — лучше. Обучение сглажено по 50 шагам, валидация — отдельные замеры.|Lower is better. Training is smoothed over 50 steps; validation points are separate measurements.
+40 шагов с растущим LR; берётся десятая часть LR у минимума сглаженного loss|40 steps with a growing LR; a tenth of the LR at the smoothed-loss minimum is taken
+40 коротких шагов; берётся десятая часть LR, на котором сглаженный loss минимален|40 short steps; a tenth of the LR at which the smoothed loss is lowest is taken
+Подбор LR|LR search
+подбор LR|LR search
+Подбор LR: loss при растущем LR|LR search: loss as the LR grows
+Ниже — подбор LR.|The LR search is below.
+LR подбором|LR by search
+подбор|search
+Подобран|Found by search
+Checkpoint нет|No checkpoints
+Checkpoint каждые|Checkpoint every
+checkpoint каждые|checkpoint every
+Checkpoint на шаге|Checkpoint at step
+Checkpoint ещё нет: продолжать будет не с чего|No checkpoints yet: there will be nothing to resume from
+Лучший checkpoint|Best checkpoint
+Рабочая папка: checkpoint и состояние оптимизатора|Work folder: checkpoints and optimizer state
+нет checkpoint: обучение не дошло до первого|has no checkpoint: training never reached the first one
+Всплески — валидация и запись checkpoint.|Spikes are validation and checkpoint writes.
+на шаг позже валидации, чтобы запись не совпадала с чтением|one step after validation, so writing does not collide with reading
+Токенизатор|Tokenizer
+Токенизация|Tokenizing
+Токенизация данных|Tokenizing data
+Токенизировать заново|Tokenize again
+Ошибка токенизации|Tokenization error
+Файл изменён после токенизации|File changed after tokenization
+Файл изменился после токенизации|File changed after tokenization
+Файл не токенизирован — причина ниже|File not tokenized — reason below
+датасет ещё не токенизирован|the dataset is not tokenized yet
+файл датасета изменился после токенизации — токенизируйте его заново|the dataset file changed after tokenization — tokenize it again
+Приходит вместе с весами|Comes with the weights
+Арена|Arena
+Мимо арены|Outside the arena
+Живая память и арена промежуточных данных слоя; растущее «мимо арены» — память фрагментируется.|Live memory and the per-layer scratch arena; a growing “outside the arena” count means memory is fragmenting.
+Прямой проход, LM head, обратный проход с шагом оптимизатора.|Forward pass, LM head, backward pass with the optimizer step.
+Prefetch следующего слоя|Next-layer prefetch
+Запас видеопамяти, бюджет среза, FP16×3, prefetch|VRAM reserve, slice budget, FP16×3, prefetch
+Запас видеопамяти, бюджет среза, BF16×3, prefetch|VRAM reserve, slice budget, BF16×3, prefetch
+Троттлинг|Throttling
+троттлинг|throttling
+Был троттлинг|Throttled
+Выше 95° — троттлинг|Above 95° — throttling
+Скрытая размерность|Hidden size
+Больше валидаций и эпох, точное умножение.|More validations and epochs, exact multiplication.
+после 1 валидации без улучшения|after 1 validation without improvement
+валидаций без улучшения|validations without improvement
+валидации без улучшения|validation without improvement
+валидация без улучшения|validation without improvement
+loss на валидации перестаёт снижаться|the validation loss stops falling
+обучение прекращается, когда loss на валидации перестаёт снижаться|training stops when the validation loss stops falling
+остановка: loss на валидации не улучшился|stop: the validation loss has not improved
+не улучшился|has not improved
+раза подряд|times in a row
+раз подряд|times in a row
+время приблизительное|the time is approximate
+Подбор LR · |LR search · 
+упаковка другая — время приблизительное|the packing differs — the time is approximate
+берётся десятая часть LR, на котором сглаженный loss минимален|a tenth of the LR at which the smoothed loss is lowest is taken
+Путь к файлу — в карточке «Данные»|File path goes in the “Data” card
+Выбирается в окне программы|Chosen in the program window
+нет такого запуска|no such run
+причина в журнале|reason in the log
+строк|rows
+Со сценой, %|With system prompt, %
+Доля примеров, где поле instruction идёт system-репликой. Остальные — без неё: так манера держится и в обычном разговоре.|Share of examples where the instruction field goes in as the system prompt. The rest go without it, so the manner holds in plain conversation too.
+Всегда со сценой|Always with system prompt
+Пример идёт со сценой всегда, если в его instruction есть одно из слов.|An example always gets the system prompt if its instruction contains one of the words.
+Слова из instruction через запятую|Words from instruction, comma-separated
+Со сценой|With system prompt
+прежняя токенизация не остановилась|the previous tokenization did not stop
+Выгрузить|Unload
+Освобождает ОЗУ и видеопамять. Ответ обрывается; следующий вопрос загрузит модель заново|Frees RAM and VRAM. The answer is cut off; the next question loads the model again
+Модель выгружена|Model unloaded
+идёт обучение: видеопамять занята им, разговор — после окончания или остановки|training is running and holds the VRAM: chat after it finishes or is stopped
+идёт обучение|training is running
+Модель разговора выгружена|Chat model unloaded
+Открыть в браузере|Open in browser
+instruction идёт system-репликой|instruction goes in as the system prompt
+; всегда — при словах:|; always for the words:
+; доля — в карточке «Данные»|; the share is set in the “Data” card
+В памяти|In memory
+Выгрузить модель|Unload model
+примера|examples
+пример|example
+Кэш весов целиком|Full weight cache
+Кэш весов|Weight cache
+системе остаётся|left for the system
+Остальные|The other
+читаются с диска дважды за шаг: обучение медленнее. Разговору нужно|are read from disk twice per step: training is slower. Chat needs
+Ранг r|Rank r
+Матрицы|Matrices
+Больше бюджета|Over budget
+ранг слишком велик|rank too high
+По умолчанию|Defaults
+r 16 · α 32 · все матрицы · dropout 0,05|r 16 · α 32 · all matrices · dropout 0.05
+Классическая LoRA (Hu и др., 2021), как в PEFT: W + α/r · B·A поверх замороженных весов. A — равномерно в ±1/√вход, B — нули, AdamW FP32. Исходные веса не меняются, адаптеры — отдельным файлом|Classic LoRA (Hu et al., 2021), as in PEFT: W + α/r · B·A on top of frozen weights. A is uniform in ±1/√in, B is zeros, AdamW FP32. The original weights stay unchanged; adapters are a separate file
+Сколько направлений поправки в каждой матрице. Больше — больше обучаемых чисел и видеопамяти|How many update directions each matrix gets. Higher means more trainable numbers and more VRAM
+Масштаб поправки: s = α / r. Обычно α = 2r|Update scale: s = α / r. Usually α = 2r
+Доля входа адаптера, обнуляемая при обучении. На валидации и в разговоре не действует|Share of the adapter input zeroed during training. Not applied in validation or chat
+Где стоят адаптеры: q k v o — внимание, gate up down — MLP; во всех 48 слоях. В слоях полного внимания своей v_proj нет: V там берётся из K|Where the adapters go: q k v o — attention, gate up down — MLP; in all 48 layers. Full-attention layers have no v_proj of their own: V is taken from K there
+Хотя бы одна матрица остаётся|At least one matrix stays on
+Адаптеров|Adapters
+Пар A и B|A and B pairs
+модели|of the model
+A, B и два момента|A, B and two moments
+Множитель s|Scale s
+Адаптеры FP32|FP32 adapters
+С AdamW в видеопамяти|With AdamW in VRAM
+С nsgd в видеопамяти|With nsgd in VRAM
+Вес и инерция|Weight and momentum
+Адаптеры|Adapters
+адаптеры поверх замороженных весов: W + α/r · B·A, s = α/r =|adapters on top of frozen weights: W + α/r · B·A, s = α/r =
+; A — равномерно в ±1/√вход, B — нули, AdamW FP32. Исходные веса не меняются, адаптеры — отдельным файлом|; A is uniform in ±1/√in, B is zeros, AdamW FP32. The original weights stay unchanged; adapters are a separate file
+ГиБ видеопамяти: A, B и два момента AdamW в FP32; в слоях полного внимания v_proj нет|GiB of VRAM: A, B and two AdamW moments in FP32; full-attention layers have no v_proj
+на входе адаптера, только при обучении|on the adapter input, training only
+классическая LoRA учится только на данных; включается в «Эксперте»|classic LoRA learns from the data only; can be turned on in “Expert”
+адаптеры LoRA|LoRA adapters
+больше бюджета видеопамяти|exceed the VRAM budget of
+меньше ранг или матриц|lower the rank or the matrix count
+не выбрано ни одной матрицы LoRA|no LoRA matrix selected
+Не нужна|Not needed
+База|Base
+Квантовать|Quantize
+Как в файле|As in the file
+Не годится|Unusable
+Идёт другое задание|Another job is running
+Нужен собранный движок|The engine must be built
+Нужна поддерживаемая модель|A supported model is needed
+Удалить файл базы|Delete the base file
+Файл базы удаляется с диска. Исходная модель не затрагивается.|The base file is deleted from disk. The original model is not touched.
+Замороженные матрицы слоёв — из исходного файла, без потерь|Frozen layer matrices come from the original file, lossless
+Ошибка весов — среднеквадратичная, относительно BF16|Weight error is RMS, relative to BF16
+Свой квант из BF16 на процессоре, по правилам llama.cpp. Исходный файл только читается|Own quant from BF16 on the CPU, by the llama.cpp rules. The original file is only read
+Готовый квант этой же модели: GGUF любого типа, в том числе динамические Unsloth, или bitsandbytes 4 бита. Блоки переносятся без пересчёта и сверяются с исходной моделью|A ready quant of this same model: GGUF of any type, Unsloth dynamic ones included, or 4-bit bitsandbytes. Blocks are copied without requantizing and checked against the original model
+Чем лежат замороженные матрицы слоёв при обучении и в разговоре. Квант занимает меньше ОЗУ и шины, а в разговоре больше весов остаётся в видеопамяти — ответ быстрее. Обучаемое берётся из исходного BF16; нормировки и эмбеддинги конвертируются в FP16|How frozen layer matrices are stored for training and chat. Quantization saves RAM and bus bandwidth. Trainable parts come from the original BF16; norms and embeddings are converted to FP16
+Свой квант|Own quant
+Квантование|Quantizing
+Перенос кванта|Quant import
+Перенос|Import
+Базы |Base 
+больше нет|no longer exists
+модель изменилась после квантования|the model changed after quantization
+не сверена с нынешней моделью|not checked against the current model
+не сверена с моделью|not checked against the model
+база не годится к нынешней модели|the base does not fit the current model
+нет такой базы|no such base
+идёт квантование|quantization is running
+на ней идёт обучение|training is running on it
+базы |base 
+Замороженные матрицы слоёв читаются из кванта и разворачиваются в FP16 на карте; обучаемое — из исходного BF16, нормировки и эмбеддинги — FP16|Frozen layer matrices are read from the quant and unpacked as FP16 on the GPU; trainable weights come from the original BF16, while frozen norms and embeddings use FP16
+ошибка весов|weight error
+замороженные веса читаются из исходного BF16; внутреннее хранение — FP16|frozen weights are read from the original BF16; internal storage is FP16
+Замороженное |Frozen 
+8,5 бита на вес: от BF16 почти не отличить|8.5 bits per weight: nearly indistinguishable from BF16
+6,6 бита на вес: потери малы|6.6 bits per weight: small loss
+5,5 бита, v_proj и часть down_proj — Q6_K|5.5 bits, v_proj and part of down_proj in Q6_K
+5,5 бита на вес|5.5 bits per weight
+4,5 бита, v_proj и часть down_proj — Q6_K: обычный выбор для разговора|4.5 bits, v_proj and part of down_proj in Q6_K: the usual pick for chat
+4,5 бита, первые слои — Q5_K: самый лёгкий|4.5 bits, first layers in Q5_K: the lightest
+нет исходной модели: база строится и сверяется по ней|no original model: a base is built and checked against it
+движок не собран или собран из прежней версии|the engine is not built or is from an older version
+движок не умеет эту модель|the engine does not support this model
+в пути к папке баз пробел|the base folder path contains a space
+рецепт |recipe 
+ не знаю| is unknown
+в модели нет матриц слоёв|the model has no layer matrices
+на диске свободно |free on disk: 
+, нужно до |, needed up to 
+, нужно |, needed 
+нужен файл .gguf, .safetensors или папка модели bitsandbytes|a .gguf or .safetensors file or a bitsandbytes model folder is needed
+это исходная модель, а не квант|this is the original model, not a quant
+запуск учился на базе |the run trained on base 
+, а её больше нет|, which no longer exists
+Обучению не мешает: задание идёт с низким приоритетом|Does not block training: the job runs at low priority
+Сверка|Check
+Дообучение моделей, которые не помещаются в видеопамять|Fine-tuning models that do not fit in VRAM
+Веса лежат в ОЗУ и подаются на карту по слою с опережением, поэтому 12B в BF16 учится на 8 ГБ. Меняются собственные веса модели, а не только адаптер. AMD и nvidia.|Weights are stored in RAM and passed to the GPU layer by layer ahead of use, so a 12B model in BF16 trains on 8 GB. The model's own weights change, not just an adapter. AMD and nvidia.
+Вопрос, прошлые реплики и ответ вместе. Другая длина — модель перезагрузится. Больше — больше видеопамяти|Question, past turns and answer together. A different length reloads the model. Longer — more VRAM
+Выбор из самых вероятных токенов, пока их общая вероятность не наберёт p. 1 — выкл|Pick from the most likely tokens until their total probability reaches p. 1 — off
+Выборка|Sampling
+Где стоят адаптеры: q k v o — внимание, gate up down — MLP; во всех слоях. В слоях полного внимания своей v_proj нет: V там берётся из K|Where adapters sit: q k v o — attention, gate up down — MLP; in all layers. Full-attention layers have no v_proj of their own: V is taken from K
+Движок поддерживает|Engine supports it
+Делит вероятность токенов из последних 256. 1 — выкл, 1.1 — обычно|Divides the probability of tokens from the last 256. 1 — off, 1.1 — typical
+Живо|Lively
+Загрузок|Downloads
+Запрашиваю|Requesting
+Запросить заново|Request again
+Зерно|Seed
+Идёт обучение: модель сменится после него|Training is running: the model changes after it
+Имя «организация/модель» или ссылка. Сведения и прогноз — по заголовкам файлов, до загрузки весов|Name “org/model” or a link. Details and forecast come from file headers, before downloading weights
+Как у авторов|As the authors set
+Контекст|Context
+Контекст, токенов|Context, tokens
+Лицензия|License
+Модель выбрана|Model selected
+Не проверялась|Not tested
+Одно и то же число — один и тот же ответ на тот же вопрос. −1 — каждый раз новый|Same number — same answer to the same question. −1 — new each time
+Отбросить токены, вероятность которых меньше этой доли от лучшего. 0 — выкл|Drop tokens whose probability is below this share of the best one. 0 — off
+Подходит · склейка после загрузки|Supported · merge after download
+Посмотреть|Look up
+Прежняя модель остаётся на диске и в списке ниже|The previous model stays on disk and in the list below
+Проверено на карте|Tested on GPU
+Прогноз на этой машине|Forecast on this machine
+Прямой проход совпал с transformers на процессоре; на видеокарте эту модель ещё не запускали|Forward pass matched transformers on CPU; this model has not been run on a GPU yet
+Ровно|Steady
+Сделать текущей|Make current
+Скачать и сделать текущей|Download and make current
+Сколько самых вероятных токенов в выборе. 0 — без ограничения|How many most likely tokens to pick from. 0 — no limit
+Страница|Page
+Текущая|Current
+Точно — всегда самый вероятный токен. Ровно — температура 0.5 без отсечек. Живо — 0.9, top-p 0.95, min-p 0.05, штраф повтора 1.1. Как у авторов — из generation_config.json модели|Precise — always the most likely token. Steady — temperature 0.5, no cut-offs. Lively — 0.9, top-p 0.95, min-p 0.05, repeat penalty 1.1. As the authors set — from the model’s generation_config.json
+Формулы|Math checked
+Формулы сверены с transformers|Math checked against transformers
+Штраф повтора|Repeat penalty
+кусков|shards
+нужно согласие на сайте|needs consent on the site
+полного внимания|full attention
+ОЗУ при обучении|RAM in training
+ОЗУ в разговоре|RAM in chat
+Обучаемая доля (срез)|Trainable share (slice)
+Разговор, BF16|Chat, BF16
+База Q4_K_M|Q4_K_M base
+Папка|Folder
+Загрузка идёт|Downloading
+Нужна склейка|Merge needed
+Склейка весов|Merging weights
+Склейка весов в один файл|Merging weights into one file
+Куски удаляются только после сверки склеенного файла|Shards are deleted only after the merged file is verified
+Склеить|Merge
+Ключ Hugging Face|Hugging Face token
+Для закрытых моделей (Llama, Gemma): сначала согласие на странице модели, потом ключ с правом чтения — huggingface.co/settings/tokens. Хранится в настройках программы, доступ только у вас|For gated models (Llama, Gemma): first accept the terms on the model page, then a read token — huggingface.co/settings/tokens. Kept in the app settings, readable only by the current user
+Получить|Get
+Выбрать модель|Choose a model
+Слои правки|Edit layers
+Замер слоёв|Measuring layers
+По выбору|Selected manually
+Не нужен|Not needed
+Шесть шагов|Six steps
+Присутствие|Presence
+Частота|Frequency
+Окно повтора, токенов|Repeat window, tokens
+Размышления|Thinking
+Сцена (системная строка)|System prompt
+знаков|chars
+Веса|Weights
+сделать|make
+База появится в списке, когда будет готова|The base will appear in the list when ready
+Вычитается из логита каждого токена, который уже встречался в окне повтора. 0 — выкл|Subtracted from the logit of every token already seen in the repeat window. 0 — off
+Вычитается за каждое повторение токена в окне: чем чаще слово, тем реже оно дальше. 0 — выкл|Subtracted per repetition in the window: the more often a word appears, the rarer it gets. 0 — off
+Сколько последних токенов учитывают штраф повтора, присутствие и частота|How many recent tokens the repeat, presence and frequency penalties look at
+Модели с режимом размышлений (Qwen 3 и др.) сначала думают, потом отвечают. Выкл — сразу ответ|Models with a thinking mode (Qwen 3 etc.) think first, then answer. Off — answer right away
+Кто модель, как отвечать, формат ответа… Другая сцена — разговор начнётся заново|Who the model is, how to answer, answer format, etc. A different prompt restarts the chat
+Чем считать в этой вкладке: BF16 или квант. Обученная модель — поверх той же базы. Нет нужного кванта — выбор запустит квантование|What this tab runs on: BF16 or a quant. A trained model runs on top of the same base. Picking a missing quant starts quantizing
+Разговоры|Chats
+Удалить разговор|Delete chat
+Без названия|Untitled
+Файл больше 8 МБ|File is larger than 8 MB
+Прикрепить текстовый файл|Attach a text file
+обрезан|trimmed
+Это не текст: файл с картинкой, PDF или архивом здесь не читается|Not text: image, PDF or archive files cannot be read here
+Озвучка|Voice
+Озвучка ответов|Speak replies
+По ходу ответа|As it streams
+После ответа|After the reply
+Папка XTTS|XTTS folder
+Голос: имя или wav с образцом|Voice: name or a sample wav
+Язык озвучки (ru, en, etc.)|Voice language (ru, en, etc.)
+Замолчать|Stop speaking
+Читать ответ модели вслух выбранным TTS: по ходу ответа (предложение за предложением) или целиком, когда ответ готов. Размышления и код не произносятся|Read the model's reply aloud with the chosen TTS: as it streams (sentence by sentence) or whole once the reply is ready. Thinking and code are not spoken
+нет espeak-ng (на Arch: pacman -S espeak-ng)|espeak-ng is missing (Arch: pacman -S espeak-ng)
+укажите папку XTTS (model.pth, config.json, vocab.json)|set the XTTS folder (model.pth, config.json, vocab.json)
+организация/модель|organization/model
+Каталог Hugging Face|Hugging Face catalog
+Проверяю поддержку|Checking support
+Движок читает config.json и заголовки файлов каждой модели — несколько КиБ, без загрузки весов|The engine reads each model's config.json and file headers: a few KiB, no weights downloaded
+Обновить список|Refresh the list
+Текстовые модели с весами safetensors прямо с сайта; список обновляется раз в сутки. Нажми — сведения и прогноз|Text models with safetensors weights straight from the site; the list refreshes once a day. Click for details and forecast
+Поиск: часть названия, автор/часть|Search: part of a name, author/part
+По загрузкам|By downloads
+По лайкам|By likes
+В тренде|Trending
+Недавно изменены|Recently updated
+Новые|Newest
+Найти|Search
+Только поддерживаемые|Supported only
+Скрыть то, что движок не читает или ещё не проверено|Hide what the engine cannot read or what is not checked yet
+Запрашиваю список…|Requesting the list
+Нет связи с Hugging Face; показано|No connection to Hugging Face; showing
+Источник|Source
+с сайта Hugging Face|from Hugging Face
+из кэша|from cache
+из кэша (устарел)|from cache (stale)
+сохранённые ответы|saved responses
+запасной список|fallback list
+Параметров всего, вместе со зрением и звуком, если они есть|Total parameters, including vision and audio parts if any
+Загрузок за месяц|Downloads in the last month
+Склейка|Merge
+Поддерживается|Supported
+Проверяю|Checking
+Среди загруженных поддерживаемых нет: снимите фильтр или покажите ещё|None of the loaded models is supported: clear the filter or load more
+Ничего не нашлось|Nothing found
+Показать ещё|Show more
+Модель с Hugging Face|Model from Hugging Face
+Потолок памяти, %|Memory limit, %
+Доля памяти всей машины, выше которой движок не занимает ОЗУ и видеопамять. От 50 до 99, по умолчанию 98. При нехватке ОЗУ обучение сохраняет снимок и останавливается.|Share of the whole machine's memory that the engine never exceeds, for both RAM and VRAM. From 50 to 99, default 98. When RAM runs short, training saves a snapshot and stops.
+Завершить работу программы|Quit everything
+Объект обучения|What to train
+Классическая LoRA (Hu и др., 2021), как в PEFT: W + α/r · B·A поверх замороженных весов. A инициализируется равномерно в ±1/√вход, B — нулями, оптимизатор AdamW в FP32. Исходные веса не изменяются, адаптеры сохраняются отдельным файлом.|Classic LoRA (Hu et al., 2021), as in PEFT: W + α/r · B·A on top of frozen weights. A is uniform in ±1/√in, B is zeros, AdamW FP32. The original weights stay unchanged; adapters are a separate file
+Значения по умолчанию: r 16, α 32, все матрицы, dropout 0,05.|r 16 · α 32 · all matrices · dropout 0.05
+Число направлений поправки в каждой матрице. Чем больше ранг, тем больше обучаемых чисел и расход видеопамяти.|How many update directions each matrix gets. Higher means more trainable numbers and more VRAM
+Масштаб поправки: s = α / r. Обычно α = 2r.|Update scale: s = α / r. Usually α = 2r
+Доля входа адаптера, обнуляемая при обучении. На валидации и в разговоре не применяется.|Share of the adapter input zeroed during training. Not applied in validation or chat
+Матрицы, на которых устанавливаются адаптеры: q, k, v, o — внимание; gate, up, down — MLP; во всех слоях. В слоях полного внимания отдельной v_proj нет: V берётся из K.|Where adapters sit: q k v o — attention, gate up down — MLP; in all layers. Full-attention layers have no v_proj of their own: V is taken from K
+С системной инструкцией, %|With system prompt, %
+Доля примеров, в которых поле instruction передаётся как системная инструкция. В остальных примерах она отсутствует, благодаря чему манера ответов сохраняется и в обычном разговоре.|Share of examples where the instruction field goes in as the system prompt. The rest go without it, so the manner holds in plain conversation too.
+Всегда с системной инструкцией|Always with system prompt
+Системная инструкция добавляется к примеру всегда, если в его поле instruction встречается одно из слов.|An example always gets the system prompt if its instruction contains one of the words.
+Обучений пока нет|No training yet
+Освобождает ОЗУ и видеопамять. Текущий ответ прерывается, при следующем вопросе модель загружается заново.|Frees RAM and VRAM. The answer is cut off; the next question loads the model again
+Каждый вопрос направляется обученной и исходной моделям, диалог начинается с чистого листа.|Compare with base: each question goes to the trained and the base model, from a clean context
+1 — результат обучения без изменений, 0 — исходная модель, 1.5 — усиленный эффект.|1 as trained, 0 base model, 1.5 sharper
+Системная инструкция|System prompt
+Текст системной инструкции|System prompt
+Собственный список|Custom list
+Один на строку|One per line
+Один вопрос на строку. Ожидаемый ответ указывается после « || » и используется для поиска совпадения.|One question per line. The expected answer goes after « || » and is used for matching
+40 шагов с растущим LR; берётся десятая часть LR у минимума сглаженного loss.|40 steps with a growing LR; a tenth of the LR at the smoothed-loss minimum is taken
+Loss по шагам без сглаживания|Raw loss per step
+Доля верно предсказанных токенов ответа.|Share of answer tokens guessed right.
+Число токенов на шаг и число токенов в loss.|Tokens per step and how many of them count toward the loss.
+Остальное — токены вопроса|The rest is the question
+Состав памяти|Contents
+Живая память и область видеопамяти для промежуточных данных слоя; рост значения «Мимо области» означает фрагментацию памяти.|Live memory and the per-layer scratch arena; a growing “outside the arena” count means memory is fragmenting.
+Менее 200 МиБ — риск сбоя|Below 200 risks a crash
+Обучаемая часть в видеопамяти|Tier1 in VRAM
+Тензоров, постоянно находящихся в памяти|Resident tensors
+Область видеопамяти|Arena
+Мимо области|Outside
+Троттлинг зафиксирован|Throttled
+Всплески соответствуют валидации и записи снимка весов.|Spikes are validation and checkpoint writes.
+Мера того, насколько сильно требуется изменить веса.|How strongly the weights want to change.
+Разогрев в начале, затем плавное снижение.|Warm-up first, then a smooth decay.
+Данные появятся после первых шагов.|Appears with the first steps
+Описание|What happened
+Заданные параметры|What was set
+Запуск из терминала: запись о выбранных параметрах отсутствует.|Started from the terminal: no record of the choices
+Подмешивание|Replay
+Защита общих знаний|Knowledge protection
+Раскладка среза|Layout
+Выполняется|Running
+Не запускалось|Not started
+Подмешивание: разметка ответов|Replay: labeling answers
+Лучшее значение|Best
+Завершение|Finishing
+Лучшее значение loss|Best loss
+Снимок весов на шаге|Checkpoint at step
+Снимок весов отсутствует|No checkpoints
+Остановка|Stopping
+Не выполнялся|Skipped
+Отключено|Off
+Не требуется|Not needed
+Срез строк по видеопамяти|Slice by VRAM
+Лучшее|Best
+Снимок весов каждые|Checkpoint every
+Отключена|Off
+Все заданные параметры|Everything set
+Срез строк по всей сети|Slice across the network
+Срез строк|Slice
+Нет связи с программой.|no connection to the program
+Не удалось запустить.|failed to start
+Не удалось запустить|Failed to start
+Снимок весов отсутствует, продолжение невозможно.|No checkpoints yet: there will be nothing to resume from
+Выполняются|Running
+Дата|When
+Занято|Take up
+Удалено частично|Not everything was deleted
+Загрузка|Loading
+Выполняется другое задание.|Another job is running
+Требуется собранный движок.|The engine must be built
+Требуется поддерживаемая модель.|A supported model is needed
+Замороженные матрицы слоёв берутся из исходного файла без потерь.|Frozen layer matrices come from the original file, lossless
+Непригодна|Unusable
+Собственный квант из BF16, создаваемый на процессоре по правилам llama.cpp. Исходный файл используется только для чтения.|Own quant from BF16 on the CPU, by the llama.cpp rules. The original file is only read
+Готовый квант этой же модели: GGUF любого типа, в том числе динамический Unsloth, или bitsandbytes 4 бита. Блоки переносятся без пересчёта и сверяются с исходной моделью.|A ready quant of this same model: GGUF of any type, Unsloth dynamic ones included, or 4-bit bitsandbytes. Blocks are copied without requantizing and checked against the original model
+Шина не определена|the bus
+Требуется действие|Action needed
+Файл используется только для чтения.|The program only reads this file
+Обучается|Trained
+С NSGD в видеопамяти|With nsgd in VRAM
+Срез строк FP32|FP32 slice
+Все параметры плана|All plan fields
+LR подбирается автоматически|LR by search
+Три целые матрицы down_proj|3 whole down_proj
+NSGD + защита общих знаний|nsgd + knowledge protection
+Должна остаться хотя бы одна матрица.|At least one matrix stays on
+Превышен бюджет|Over budget
+Недопустимое имя|Invalid
+Файл не токенизирован, причина указана ниже.|File not tokenized — reason below
+Файл изменён после токенизации.|File changed after tokenization
+С системной инструкцией:|With system prompt
+Не удалось прочитать файл.|File is unreadable
+Предыдущий пример|Previous
+Следующий пример|Next
+Нет связи.|no connection
+Не удалось удалить|Failed
+Не удалось выбрать базу|Failed
+Обучению не препятствует: задание выполняется с низким приоритетом.|Does not block training: the job runs at low priority
+Путь к файлу указывается в карточке «Данные».|File path goes in the “Data” card
+Набор разработки отсутствует|No development kit
+Пакет tokenizers отсутствует|No tokenizers package
+Установить|Install
+Файл tokenizer.json отсутствует|No tokenizer.json
+Поставляется вместе с весами|Comes with the weights
+Пакет numpy отсутствует|No numpy package
+читаются с диска дважды за шаг, поэтому обучение замедляется. Для разговора требуется|are read from disk twice per step: training is slower. Chat needs
+Рабочая папка: снимки весов и состояние оптимизатора.|Work folder: checkpoints and optimizer state
+Вернуть значения, подобранные автоподбором.|Restore the values selected by auto-tuning
+Режим эксперта: ручная настройка каждого параметра.|Expert mode: edit every number
+Не удалось подготовить данные.|failed
+Расположение файла model.safetensors|Where model.safetensors is
+Перенос квантованной базы|Quant import
+Не выполнено|Failed
+Движок закрыт.|engine closed
+Отменено.|cancelled
+Веса загружаются при первом вопросе.|Weights load on the first question
+У запуска нет записи о файле данных, требуется выбрать файл.|the run has no record of its data file; choose a file
+Файл с вопросами не выбран.|no question file selected
+Собственный список пуст|Custom list is empty
+У исходной модели|Base model
+Обученная модель против исходной|Trained vs base
+= Как у исходной модели|= Same as base
+Ожидаемый ответ|Expected
+Системная инструкция:|System prompt:
+Щелчок мышью отмечает результат вручную.|Click to mark manually
+Проверка не запущена|Evaluation did not start
+Вопросов нет|No questions
+Не удалось сохранить|Not saved
+Требуется выбрать от 2 до 6 запусков.|Select 2–6 runs
+Обучение остановлено из-за ошибки|Training stopped with an error
+Собственный цвет|Custom color
+Сохранить текущее оформление|Save current
+Изображение|Image
+Выбирается в окне программы.|Chosen in the program window
+Затемнение изображения|Image dimming
+Размытие изображения|Image blur
+Относится к карточкам и панелям.|Cards and panels
+Компоновка|Layout
+Собственный CSS|Custom CSS
+Требуется вставить JSON, скопированный кнопкой «Экспорт».|Paste the JSON copied with “Export”
+Некорректный JSON|Not JSON
+Собственные наборы сохраняются.|Custom presets are kept.
+Плитки на экране «Ход обучения»|Tiles on “Training progress”
+Авто|Auto
+Режим «Авто» открывает ход обучения, если обучение выполняется.|“Auto”: training if a run is going
+Уведомление на рабочем столе, в том числе при закрытом окне.|To the desktop, also when the window is closed
+Действует, пока выполняется обучение.|While training runs
+При значении 0 всегда выбирается самый вероятный ответ.|0 always picks the most likely answer
+В токенах.|Tokens
+1 — результат обучения без изменений, 0 — исходная модель.|1 as trained, 0 base
+Видеопамять, резервируемая под промежуточные данные шага.|VRAM for intermediate step data
+Бюджет среза строк|Slice budget
+Количество обучаемых чисел в видеопамяти: вес и два момента Adam, 12 байт на число.|Trained numbers in VRAM: weight and two Adam moments, 12 bytes per number
+Компилятор отсутствует|No compiler
+Занимает несколько минут.|A few minutes
+Действует со следующего запуска движка.|Applies from the next engine start
+Расположение файла model.safetensors. Используется только для чтения.|Where model.safetensors is. The program only reads it
+Журналы, токены, обученные веса.|Logs, tokens, trained weights
+Источник загрузки весов|Where to download weights from
+Плитки графиков на экране «Ход обучения»|Chart tiles on “Training progress”
+Веса хранятся в ОЗУ и подаются на видеокарту послойно с опережением, поэтому модель 12B в BF16 обучается на 8 ГБ. Изменяются собственные веса модели, а не только адаптер. Поддерживаются AMD и NVIDIA.|Weights are stored in RAM and passed to the GPU layer by layer ahead of use, so a 12B model in BF16 trains on 8 GB. The model's own weights change, not just an adapter. AMD and nvidia.
+Завершить работу программы?|Quit everything?
+Программа будет закрыта полностью.|The program will close completely.
+Работа TierLM завершена|TierLM has quit
+Веса отсутствуют|No weights
+Данные отсутствуют|No data
+Имя может содержать буквы, цифры, точку, дефис и подчёркивание, не более 40 знаков.|name: letters, digits, dot, hyphen and underscore, up to 40 characters
+Обучение уже выполняется.|already running
+Движок не собран.|engine not built yet
+Движок собран из прежней версии, требуется пересборка.|the engine was built from the previous version: rebuild
+Модель использует смесь экспертов (MoE), а движок пока поддерживает только плотные модели.|the model is a mixture of experts; the engine handles only dense models so far
+Режим эксперта|Expert
+FP32, собственные ядра|FP32, own kernels
+Часть строк каждой матрицы и все нормировки, оптимизатор Adam. Подходит для тона и знаний, но затрагивает остальное.|some rows of every matrix and all norms, Adam: suits tone and knowledge, but affects everything else
+Точность: факты|Precise: facts
+Датасет ещё не токенизирован.|the dataset is not tokenized yet
+Задано вручную.|set
+По одному примеру на шаг: набор небольшой.|one example at a time: the set is small
+На шаг позже валидации, чтобы запись не совпадала с чтением.|one step after validation, so writing does not collide with reading
+Подбор|search
+Без подбора: обучение начинается сразу.|no search: training starts right away
+Подбор по 40 коротким шагам: берётся десятая часть значения LR, при котором сглаженная потеря (loss) минимальна.|40 short steps; a tenth of the LR at which the smoothed loss is lowest is taken
+Число эпох|Epochs
+Поле instruction передаётся как системная инструкция|instruction goes in as the system prompt
+; доля задаётся в карточке «Данные».|; the share is set in the “Data” card
+Выключено|off
+Классическая LoRA обучается только на данных; подмешивание включается в режиме эксперта.|classic LoRA learns from the data only; can be turned on in “Expert”
+Отсутствует набор replay.jsonl.|replay.jsonl set is missing
+Выключена|off
+Обучение прекращается, когда потеря (loss) на валидации перестаёт снижаться.|training stops when the validation loss stops falling
+По оборудованию|by hardware
+Эталонная точность; шаг дольше примерно на треть.|reference precision; steps about a third longer
+Определяется автоматически по оборудованию.|by hardware
+Включена|on
+Следующий слой передаётся по шине, пока считается текущий.|the next layer is transferred while the current one computes
+Не выбрано ни одной матрицы LoRA.|no LoRA matrix selected
+Применяется на входе адаптера, только при обучении.|on the adapter input, training only
+Замороженные веса читаются из исходного BF16; внутреннее хранение — FP16.|frozen weights are read from the original BF16; internal storage is FP16
+Первый токен определяет, каким будет ответ.|it decides what the answer will be
+Шаг уменьшается, если норма градиента резко возросла.|the step shrinks when the gradient norm spikes
+Как в строке «Слои правки»|Same as “Edit layers”
+Остальные слои заморожены.|the others are frozen
+В этом режиме обучаются только целые матрицы выбранных слоёв.|in this mode only whole matrices of the chosen layers are trained
+Выполняется обучение.|training is running
+Такого запуска нет.|no such run
+Файл не найден.|no such file
+Не удалось остановить прежнюю токенизацию.|the previous tokenization did not stop
+Подготовка уже выполняется.|already running
+Неизвестное действие.|unknown
+8,5 бита на вес: от BF16 почти не отличается.|8.5 bits per weight: nearly indistinguishable from BF16
+6,6 бита на вес: потери малы.|6.6 bits per weight: small loss
+5,5 бита на вес; v_proj и часть down_proj — Q6_K.|5.5 bits, v_proj and part of down_proj in Q6_K
+5,5 бита на вес.|5.5 bits per weight
+4,5 бита на вес; v_proj и часть down_proj — Q6_K. Обычный выбор для разговора.|4.5 bits, v_proj and part of down_proj in Q6_K: the usual pick for chat
+4,5 бита на вес; первые слои — Q5_K. Самый лёгкий вариант.|4.5 bits, first layers in Q5_K: the lightest
+Файл не читается.|file is unreadable
+Модель изменилась после квантования.|the model changed after quantization
+Не сверена с текущей моделью.|not checked against the current model
+Не сверена с моделью.|not checked against the model
+Нет исходной модели: база строится и сверяется по ней.|no original model: a base is built and checked against it
+Движок не собран или собран из прежней версии.|the engine is not built or is from an older version
+Движок не поддерживает эту модель.|the engine does not support this model
+В модели нет матриц слоёв.|the model has no layer matrices
+Требуется файл .gguf, .safetensors или папка модели bitsandbytes.|a .gguf or .safetensors file or a bitsandbytes model folder is needed
+Это исходная модель, а не квантованная база.|this is the original model, not a quant
+База не подходит к текущей модели.|the base does not fit the current model
+Такой базы нет.|no such base
+Выполняется квантование.|quantization is running
+Выполняется обучение: видеопамять занята им, поэтому разговор возможен после завершения или остановки обучения.|training is running and holds the VRAM: chat after it finishes or is stopped
+Модель не выбрана.|no model selected
+Нет движка или весов модели.|no engine or model weights
+Не удалось открыть разговор.|failed to open chat
+Разговор закрыт.|chat closed
+Нет записи о запуске: продолжать нечего.|no start record: nothing to continue
+Уже выполняется другой запуск.|another run is in progress
+Файл датасета изменился после токенизации, требуется повторная токенизация.|the dataset file changed after tokenization — tokenize it again
+причина указана в журнале|reason in the log
+Обучаемая доля (срез строк)|Trainable share (slice)
+Время шага обучения|Training step
+Квантованная база Q4_K_M|Q4_K_M base
+Требуется согласие на сайте|needs consent on the site
+Видеокарта не найдена.|no GPU found
+Не установлен espeak-ng (Arch: pacman -S espeak-ng).|espeak-ng is missing (Arch: pacman -S espeak-ng)
+Требуется указать папку XTTS (model.pth, config.json, vocab.json).|set the XTTS folder (model.pth, config.json, vocab.json)
+Удалить запуски|Delete runs:
+Выполняется запрос|Requesting
+отсутствует model.safetensors.|no model.safetensors
+Слова из instruction, через запятую|Words from instruction, comma-separated
+Восстановление невозможно.|Cannot be undone.
+Формат весов для этой вкладки: BF16 или квант. Обученная модель применяется поверх той же базы. Если нужного кванта нет, выбор запускает квантование.|What this tab runs on: BF16 or a quant. A trained model runs on top of the same base. Picking a missing quant starts quantizing
+База появится в списке после завершения квантования.|The base will appear in the list when ready
+Вычитается из логита каждого токена, уже встречавшегося в окне повтора. 0 — выключено.|Subtracted from the logit of every token already seen in the repeat window. 0 — off
+Вычитается за каждое повторение токена в окне: чем чаще встречается слово, тем ниже вероятность его повтора. 0 — выключено.|Subtracted per repetition in the window: the more often a word appears, the rarer it gets. 0 — off
+Число последних токенов, учитываемых штрафом повтора, присутствием и частотой.|How many recent tokens the repeat, presence and frequency penalties look at
+Модели с режимом размышлений (Qwen 3 и др.) сначала формируют рассуждение, затем ответ. При выключении ответ выдаётся сразу.|Models with a thinking mode (Qwen 3 etc.) think first, then answer. Off — answer right away
+Озвучивание ответа модели выбранным TTS: по ходу ответа (предложение за предложением) или целиком после его завершения. Размышления и код не озвучиваются.|Read the model's reply aloud with the chosen TTS: as it streams (sentence by sentence) or whole once the reply is ready. Thinking and code are not spoken
+Голос: имя или файл wav с образцом|Voice: name or a sample wav
+Язык озвучки (ru, en и др.)|Voice language (ru, en, etc.)
+Остановить озвучку|Stop speaking
+Роль модели, правила и формат ответа. При изменении инструкции разговор начинается заново.|Who the model is, how to answer, answer format, etc. A different prompt restarts the chat
+Точная|Precise
+Ровная|Steady
+Вариативная|Lively
+Рекомендация авторов|As the authors set
+Точная — всегда самый вероятный токен. Ровная — температура 0.5 без отсечек. Вариативная — температура 0.9, top-p 0.95, min-p 0.05, штраф повтора 1.1. Рекомендация авторов — значения из generation_config.json модели.|Precise — always the most likely token. Steady — temperature 0.5, no cut-offs. Lively — 0.9, top-p 0.95, min-p 0.05, repeat penalty 1.1. As the authors set — from the model’s generation_config.json
+Число наиболее вероятных токенов, из которых делается выбор. 0 — без ограничения.|How many most likely tokens to pick from. 0 — no limit
+Выбор из наиболее вероятных токенов, пока их суммарная вероятность не достигнет p. 1 — выключено.|Pick from the most likely tokens until their total probability reaches p. 1 — off
+Отбрасываются токены, вероятность которых ниже заданной доли от вероятности лучшего. 0 — выключено.|Drop tokens whose probability is below this share of the best one. 0 — off
+Делит вероятность токенов из последних 256. 1 — выключено, 1.1 — типичное значение.|Divides the probability of tokens from the last 256. 1 — off, 1.1 — typical
+Суммарная длина вопроса, предыдущих реплик и ответа. При изменении длины модель перезагружается. Чем больше длина, тем больше расход видеопамяти.|Question, past turns and answer together. A different length reloads the model. Longer — more VRAM
+При одном и том же значении на один и тот же вопрос выдаётся один и тот же ответ. −1 — новое значение при каждом запросе.|Same number — same answer to the same question. −1 — new each time
+Обрезан|trimmed
+Имя в формате «организация/модель» или ссылка. Сведения и прогноз формируются по заголовкам файлов до загрузки весов.|Name “org/model” or a link. Details and forecast come from file headers, before downloading weights
+Организация/модель|organization/model
+Показать|Look up
+Подходит, склейка после загрузки|Supported · merge after download
+Поддерживается движком|Engine supports it
+Проверено на видеокарте|Tested on GPU
+Не проверено|Not tested
+Прямой проход совпал с transformers на процессоре. На видеокарте эта модель ещё не запускалась.|Forward pass matched transformers on CPU; this model has not been run on a GPU yet
+Страница модели|Page
+Повторить запрос|Request again
+частей|shards
+требуется согласие на сайте|needs consent on the site
+Прогноз для этой машины|Forecast on this machine
+Выполняется обучение: модель будет заменена после его завершения.|Training is running: the model changes after it
+Выполняется загрузка|Downloading
+Прежняя модель остаётся на диске и в списке ниже.|The previous model stays on disk and in the list below
+Проверка поддержки|Checking support
+Движок читает config.json и заголовки файлов каждой модели: несколько КиБ, без загрузки весов.|The engine reads each model's config.json and file headers: a few KiB, no weights downloaded
+Текстовые модели с весами safetensors, получаемые непосредственно с сайта. Список обновляется раз в сутки; по выбранной модели отображаются сведения и прогноз.|Text models with safetensors weights straight from the site; the list refreshes once a day. Click for details and forecast
+Поиск по названию или автору|Search: part of a name, author/part
+По отметкам «нравится»|By likes
+Набирают популярность|Trending
+Скрываются модели, которые движок не читает или которые ещё не проверены.|Hide what the engine cannot read or what is not checked yet
+Выполняется запрос списка|Requesting the list
+Нет связи с Hugging Face. Источник|No connection to Hugging Face; showing
+Среди загруженных моделей поддерживаемых нет. Можно отключить фильтр или показать больше моделей.|None of the loaded models is supported: clear the filter or load more
+Сайт Hugging Face|from Hugging Face
+Кэш|from cache
+Кэш (устарел)|from cache (stale)
+Общее число параметров, включая модули зрения и звука, если они есть.|Total parameters, including vision and audio parts if any
+Собственный|Custom
+Вид окна, развёрнутого на весь экран.|A window maximized to the full screen
+Доля памяти всей машины, выше которой движок не занимает ОЗУ и видеопамять. Допустимы значения от 50 до 99, по умолчанию 98. При нехватке ОЗУ обучение сохраняет снимок весов и останавливается.|Share of the whole machine's memory that the engine never exceeds, for both RAM and VRAM. From 50 to 99, default 98. When RAM runs short, training saves a snapshot and stops.
+Опережающая подкачка следующего слоя|Next-layer prefetch
+Требуется для закрытых моделей (Llama, Gemma): сначала даётся согласие на странице модели, затем создаётся ключ с правом чтения (huggingface.co/settings/tokens). Ключ хранится в настройках программы и доступен только текущему пользователю.|For gated models (Llama, Gemma): first accept the terms on the model page, then a read token — huggingface.co/settings/tokens. Kept in the app settings, readable only by the current user
+Вывод отсутствует|No output yet
+будет остановлено, программа будет закрыта полностью.|will be stopped and the program will close completely.
+Собственный набор|Custom preset
+Подходит, части объединяются после загрузки|Supported · merge after download
+Объединение|Merge
+1 — результат обучения без изменений, 0 — исходная модель, 1,5 — усиленный эффект.|1 as trained, 0 base model, 1.5 sharper
+Точная — всегда самый вероятный токен. Ровная — температура 0,5 без отсечек. Вариативная — температура 0,9, top-p 0,95, min-p 0,05, штраф повтора 1,1. Рекомендация авторов — значения из generation_config.json модели.|Precise — always the most likely token. Steady — temperature 0.5, no cut-offs. Lively — 0.9, top-p 0.95, min-p 0.05, repeat penalty 1.1. As the authors set — from the model’s generation_config.json
+Делит вероятность токенов из последних 256. 1 — выключено, 1,1 — типичное значение.|Divides the probability of tokens from the last 256. 1 — off, 1.1 — typical
+Втрое выше среднего за 50 шагов.|Three times above the 50-step mean
+Завершить работу|Quit
+Объединение частей весов в один файл|Merging weights into one file
+Объединить|Merge
+Объединение частей весов|Merging weights
+Подбор LR: 40 шагов с растущим LR; выбирается одна десятая значения LR в минимуме сглаженной потери (loss).|40 steps with a growing LR; a tenth of the LR at the smoothed-loss minimum is taken
+Потеря (loss) по шагам без сглаживания|Raw loss per step
+Разность средних|Difference of means
+Токенов в расчёте потери|Tokens in loss
+За весь запуск|Whole run
+Число токенов на шаг и число токенов, учитываемых в расчёте потери (loss).|Tokens per step and how many of them count toward the loss.
+В расчёте потери|In loss
+Доля в расчёте потери|Share in loss
+Остальное — текст вопроса|The rest is the question
+Менее 200 МиБ — риск аварийной остановки.|Below 200 risks a crash
+Вне области|Outside
+Разгон в начале, затем плавное снижение.|Warm-up first, then a smooth decay.
+Снижение|Dropped by
+Лучшая потеря (loss)|Best loss
+Потеря (loss) на валидации|Validation loss
+Потеря (loss) на обучении|Training loss
+Лучшая потеря (loss) на валидации|Best on validation
+Последняя потеря (loss) на валидации|Last on validation
+Подбор LR: потеря (loss) при растущем LR|LR search: loss as the LR grows
+Живая память и область видеопамяти для промежуточных данных слоя; рост значения «Вне области» означает фрагментацию памяти.|Live memory and the per-layer scratch arena; a growing “outside the arena” count means memory is fragmenting.
+Точность|Precise
+Кэш (устаревший)|from cache (stale)
+из кэша (устаревший)|from cache (stale)
+Прогон из 40 шагов с растущим LR; выбирается одна десятая значения LR в минимуме сглаженной потери (loss).|40 steps with a growing LR; a tenth of the LR at the smoothed-loss minimum is taken
+Лучшая на валидации|Best on validation
+Последняя на валидации|Last on validation
+Перплексия (ppl)|Perplexity
+Менее 200 — риск аварийной остановки|Below 200 risks a crash
+Тензоров в памяти постоянно|Resident tensors
+Живая память|Live
+Замороженные веса в формате BF16|Frozen weights, BF16
+Край кристалла|Edge
+Зафиксирован троттлинг|Throttled
+Самый долгий шаг|Slowest
+Подобрано автоматически|Found by search
+Исходная потеря (loss) по шагам|Raw loss per step
+Без сглаживания; виден разброс между примерами.|Unsmoothed: shows the spread between examples.
+Точность (acc) на ответе|Answer accuracy
+Точность (acc)|Precise
+Пик за шаг; пунктиром показан потолок памяти карты.|Peak per step; dashed line is the card memory limit.
+Живая память и область видеопамяти для промежуточных данных слоя. Рост значения «Вне области» указывает на фрагментацию памяти.|Live memory and the per-layer scratch arena; a growing “outside the arena” count means memory is fragmenting.
+Самая горячая точка кристалла, память и край кристалла.|Hottest spot of the die, memory and edge.
+Обороты в минуту. Нулевое значение на холодной карте является нормой.|RPM; zero on a cold card is normal.
+Об/мин|rpm
+Всплески соответствуют валидации и сохранению снимка весов.|Spikes are validation and checkpoint writes.
+Ток/с|tok/s
+Норма градиента (|g|)|Gradient norm
+Показатель того, насколько сильно требуется изменить веса.|How strongly the weights want to change.
+Не начато|Not started
+Снимка весов нет|No checkpoints
+Обучение не начато|Training has not started yet
+Способ обучения|What is trained
+Снимка весов пока нет, продолжение невозможно.|No checkpoints yet: there will be nothing to resume from
+Запуск выполнен из терминала, записи о выбранных параметрах нет.|Started from the terminal: no record of the choices
+Три матрицы down_proj целиком|3 whole down_proj
+Параметры движка|Engine flags
+Как в исходном файле|As in the file
+Ошибка весов среднеквадратичная, относительно BF16.|Weight error is RMS, relative to BF16
+Выполняется другое задание|Another job is running
+Требуется собранный движок|The engine must be built
+Требуется поддерживаемая модель|A supported model is needed
+Обучению не мешает: задание выполняется с низким приоритетом.|Does not block training: the job runs at low priority
+Собран для прежней версии|Built from the previous version
+Набор разработки не установлен|No development kit
+Пакет tokenizers не установлен|No tokenizers package
+Отсутствует tokenizer.json|No tokenizer.json
+Пакет numpy не установлен|No numpy package
+Проверка выполняется при запуске|Checked at start
+Рабочая папка: снимки весов и состояние оптимизатора|Work folder: checkpoints and optimizer state
+Требуется склейка|Merge needed
+С состоянием AdamW в видеопамяти|With AdamW in VRAM
+Срез строк, FP32|FP32 slice
+BF16, как в исходном файле|BF16, as in the file
+Неверное имя|Invalid
+Точность (acc) на валидации|Validation accuracy
+Обученная модель|Trained
+Ответ изменён|Answer changed
+Обученная модель в сравнении с исходной|Trained vs base
+Не совпало|✗ No match
+Как у исходной модели|= Same as base
+Запуск не выполнен|Failed to start
+Размер файла превышает 8 МБ.|File is larger than 8 MB
+Файл не является текстовым: изображения, документы PDF и архивы не читаются.|Not text: image, PDF or archive files cannot be read here
+Создание|make
+Выбор папки|Choose folder
+Выбор файла|Choose file
+Обучение продолжается. Окно свёрнуто в системный трей.|Training continues. The window is in the tray.
+Не удалось выполнить разбор файла.|failed
+Не удалось запустить обучение.|failed to start
+Движок завершил работу.|engine closed
+Отсутствует движок или веса модели.|no engine or model weights
+Запрос отменён.|cancelled
+Чем ниже, тем лучше. Обучение сглажено по 50 шагам, валидация — отдельные замеры.|Lower is better. Training is smoothed over 50 steps; validation points are separate measurements.
+Предел кристалла|Die limit
+Предел памяти|Memory limit
+Датчик не сообщает предел|The sensor reports no limit
+Шагов выше|Steps above
+Пустое поле — значение из осмотра карты движком.|Empty field: the value from the engine’s card probe.
+Всё подбирается само: шаг обучения, эпохи, проверки и остановка по данным, умножение и подкачка по железу.|Everything is picked automatically: learning rate, epochs, evaluations and early stop from the data, multiplication and prefetch from the hardware.
+Всё подбирается само: шаг обучения, эпохи, проверки и остановка по данным, умножение и подкачка по железу|Everything is picked automatically: learning rate, epochs, evaluations and early stop from the data, multiplication and prefetch from the hardware

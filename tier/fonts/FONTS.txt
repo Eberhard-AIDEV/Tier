@@ -1,0 +1,11 @@
+Шрифты, которые программа несёт с собой. Все — под SIL Open Font License 1.1 (полный текст — OFL.txt).
+*.woff2 — латиница и кириллица для панели в браузере; qt/*.ttf — те же шрифты, разложенные по начертаниям
+400, 500, 600, 700 для окна. Шрифтовые имена в qt/ — «TL Inter», «TL Golos» и т. д., чтобы не путаться
+с установленными в системе. Обе раскладки сделаны из исходных переменных шрифтов без изменения рисунка.
+
+Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter)
+Copyright 2019 The Golos Text Project Authors (https://github.com/googlefonts/golos-text)
+Copyright 2021 The Onest Project Authors (https://github.com/simpals/onest)
+Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
+Copyright 2020 The Jost Project Authors (https://github.com/indestructible-type/Jost)
+Copyright 2020 The Geologica Project Authors (https://github.com/googlefonts/geologica)

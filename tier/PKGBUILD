@@ -1,0 +1,23 @@
+# а1
+pkgname=tierlm
+pkgver=2.4
+pkgrel=1
+pkgdesc='Дообучение моделей, которые не помещаются в видеопамять: веса в ОЗУ подаются на карту по слою, 12B в BF16 учится на 8 ГБ; AMD и nvidia'
+arch=('any')
+url='https://t.me/So_bad_catty'
+license=('custom')
+depends=('python' 'pyside6' 'qt6-declarative' 'qt6-svg' 'gawk' 'bash')
+optdepends=('espeak-ng: озвучка ответов системным голосом'
+            'python-pytorch: озвучка и обучение XTTS'
+            'libnotify: уведомление об окончании обучения без окна'
+            'python-tokenizers: разбор текста на токены'
+            'python-jinja: шаблон диалога у моделей, кроме Gemma 4'
+            'python-huggingface-hub: загрузка весов'
+            'rocm-hip-sdk: сборка движка под AMD'
+            'hipblas: сборка движка под AMD'
+            'hipblaslt: FP16×3 на AMD; без него движок собирается, хранит замороженные веса в FP16 и считает через FP32'
+            'cuda: сборка движка под nvidia')
+options=('!strip')
+
+pkgver(){ bash "$startdir/pack.sh" ver; }
+package(){ bash "$startdir/pack.sh" stage "$pkgdir" /usr; }
